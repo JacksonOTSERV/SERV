@@ -3,6 +3,12 @@
 Servidor OpenTibia baseado em **TFS 1.x** (C++14), compilado com **CMake**.
 Cliente **não** está incluído neste repositório (distribuído à parte via Drive).
 
+## Cliente (download)
+
+O cliente OTCv8 está disponível no Google Drive:
+
+**➡️ [Baixar cliente](https://drive.google.com/file/d/1sspwKHHubbaXDQrJyjT1b2RgeFW-Cyjl/view?usp=drive_link)**
+
 ---
 
 ## Requisitos
