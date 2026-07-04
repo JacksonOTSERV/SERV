@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Fire Guardian1" nameDescription="a Fire Guardian1" race="fire" experience="0" speed="0" manacost="0">
+  <health now="100000000" max="100000000" />
+  <look type="484" corpse="16330" />
+  <targetchange interval="5000" chance="50" />
+  <strategy attack="100" defense="0" />
+  <flags>
+    <flag summonable="0" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="0" />
+    <flag convinceable="0" />
+    <flag pushable="0" />
+    <flag canpushitems="1" />
+    <flag canpushcreatures="1" />
+    <flag targetdistance="4" />
+    <flag staticattack="90" />
+    <flag runonhealth="0" />
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" min="-5000" max="-10000" />
+    <attack name="super hell granade" interval="1000" chance="75" min="-2000" max="-2250" />
+    <attack name="super explosion wave" interval="3000" chance="25" min="-60" max="-15000" />
+    <attack name="explosion" interval="5000" min="-10000" max="-15000" />
+    <attack name="saiko nodo" interval="5000" min="-10000" max="-15000" />
+    <attack name="brave cannon" interval="4000" chance="75" min="-5000" max="-15000" />
+  </attacks>
+  <defenses armor="100" defense="100" />
+  <elements>
+    <element firePercent="0" />
+    <element energyPercent="0" />
+    <element icePercent="0" />
+    <element earthPercent="0" />
+    <element holyPercent="0" />
+    <element physicalPercent="0" />
+  </elements>
+  <immunities>
+    <immunity paralyze="1" />
+    <immunity invisible="1" />
+  </immunities>
+  <summons maxSummons="10">
+    <summon name="Hell Ghost" interval="2500" chance="50" max="10" />
+  </summons>
+  <script>
+    <event name="tp" />
+  </script>
+</monster>

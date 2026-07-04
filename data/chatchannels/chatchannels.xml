@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+	<channel id="5" name="Vendas" public="1" script="advertising.lua" />
+	<channel id="7" name="Ajuda" public="1" script="help.lua" />
+	<channel id="8" name="Invas�es" public="1" script="invasion.lua" />
+	<channel id="10" name="Guilds" script="guildleaders.lua" />
+	<channel id="40" name="Live Channel" script="livechannel.lua" />
+	<channel id="23" name="Stream" script="streamchannel.lua" />
+</channels>

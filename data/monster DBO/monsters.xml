@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monsters>
+  <!-- Reborn Quest -->
+  <monster name="RB Bardock SSJ4" file="Quest Reborn/RB Bardock SSJ4.xml"/>
+  <monster name="RB Broly SSJ4" file="Quest Reborn/RB Broly SSJ4.xml"/>
+  <monster name="RB Gogeta SSJ4" file="Quest Reborn/RB Gogeta SSJ4.xml"/>
+  <monster name="RB Gohan SSJ4" file="Quest Reborn/RB Gohan SSJ4.xml"/>
+  <monster name="RB Goku SSJ4" file="Quest Reborn/RB Goku SSJ4.xml"/>
+  <monster name="RB Raditz SSJ4" file="Quest Reborn/RB Raditz SSJ4.xml"/>
+  <monster name="RB Trunks SSJ4" file="Quest Reborn/RB Trunks SSJ4.xml"/>
+  <monster name="RB Turles SSJ4" file="Quest Reborn/RB Turles SSJ4.xml"/>
+  <monster name="RB Vegeta SSJ4" file="Quest Reborn/RB Vegeta SSJ4.xml"/>
+  <monster name="Porunga" file="Quest Reborn/Porunga.xml"/>
+  
+  <!-- Monsters -->
+  <monster name="Android I" file="Android I.xml" />
+  <monster name="Android II" file="Android II.xml" />
+  <monster name="Android III" file="Android III.xml" />
+  <monster name="Android IV" file="Android IV.xml" />
+  <monster name="Android V" file="Android V.xml" />
+  <monster name="Zaiko" file="ilhas/Zaiko.xml" />
+  <monster name="Vegeta" file="Vegeta.xml" />
+  <monster name="Clone" file="Clone.xml" />
+  <monster name="Clone Giru" file="Clone Giru.xml" />
+  <monster name="Clone Robot" file="Clone Robot.xml" />
+  <monster name="Clone Cell Jr" file="Clone Cell Jr.xml" />
+  <monster name="Clone Ghost" file="Clone Ghost.xml" />
+  <monster name="Purching Bag" file="Purching Bag.xml" />
+  <monster name="Majin Vegeta" file="Majin Vegeta.xml" />
+  <monster name="Gotenks SSJ3" file="Gotenks SSJ3.xml" />
+  <monster name="Android" file="Android.xml" />
+  <monster name="Namekjin" file="Namekjin.xml" />
+  <monster name="Trunks SSJ2" file="Trunks SSJ2.xml" />
+  <monster name="Terminator" file="Terminator.xml" />
+  <monster name="Strong Namek" file="Strong Namek.xml" />
+  <monster name="Bardock" file="Bardock.xml" />
+  <monster name="Prince Oozaru" file="Prince Oozaru.xml" />
+  <monster name="Goku SSJ4" file="Goku SSJ4.xml" />
+  <monster name="Goku SSJ3" file="Goku SSJ3.xml" />
+  <monster name="False Saiyan" file="False Saiyan.xml" />
+  <monster name="Android Warrior" file="Android Warrior.xml" />
+  <monster name="Gohan SSJ2" file="Gohan SSJ2.xml" />
+  <monster name="Freeza" file="Freeza.xml" />
+  <monster name="Destroyer" file="Destroyer.xml" />
+  <monster name="Baby Oozaru" file="Baby Oozaru.xml" />
+  <monster name="Janemba" file="Janemba.xml" />
+  <monster name="Furie Janemba" file="Furie Janemba.xml" />
+  <monster name="Ultra Namekjin" file="Ultra Namekjin.xml" />
+  <monster name="Vegeta SSJ4" file="Vegeta SSJ4.xml" />
+  <monster name="Vegeta SSJ5" file="Vegeta SSJ5.xml" />
+  <monster name="Trunks SSJ5" file="Trunks SSJ5.xml" />
+  <monster name="Bardock SSJ5" file="Bardock SSJ5.xml" />
+  <monster name="Elder Namekjin" file="Elder Namekjin.xml" />
+  <monster name="Namekjin Mindcontroller" file="Namekjin Mindcontroller.xml" />
+  <monster name="Broly SSJ4" file="Broly SSJ4.xml" />
+  <monster name="Tsuful" file="Tsuful.xml" />
+  <monster name="Namekjin Scout" file="Namekjin Scout.xml" />
+  <monster name="Namekjin Cultist" file="Namekjin Cultist.xml" />
+  <monster name="Namekjin Warrior" file="Namekjin Warrior.xml" />
+  <monster name="Saiyan Oozaru" file="Saiyan Oozaru.xml" />
+  <monster name="Bardock SSJ4" file="Bardock SSJ4.xml" />
+  <monster name="Goku SSJ5" file="Goku SSJ5.xml" />
+  <monster name="Evil Vegetto" file="Evil Vegetto.xml" />
+  <monster name="Broly SSJ5" file="Broly SSJ5.xml" />
+  <monster name="Lord Freeza" file="Lord Freeza.xml" />
+  <monster name="Super C17" file="Super C17.xml" />
+  <monster name="Majin Boo" file="Majin Boo.xml" />
+  <monster name="Strong Boo" file="Strong Boo.xml" />
+  <monster name="Gotenks SSJ4" file="Gotenks SSJ4.xml" />
+  <monster name="Tsuful SSJ5" file="Tsuful SSJ5.xml" />
+  <monster name="Kuririn" file="Kuririn.xml" />
+  <monster name="Super C18" file="Super C18.xml" />
+  <monster name="Raditz" file="Raditz.xml" />
+  <monster name="Raditz SSJ4" file="Raditz SSJ4.xml" />
+  <monster name="Raditz SSJ5" file="Raditz SSJ5.xml" />
+  <monster name="Turles SSJ4" file="Turles SSJ4.xml" />
+  <monster name="Turles SSJ5" file="Turles SSJ5.xml" />
+  <monster name="Omega Destroyer" file="Omega Destroyer.xml" />
+  <monster name="Gogeta SSJ2" file="Gogeta SSJ2.xml" />
+  <monster name="Gogeta SSJ4" file="Gogeta SSJ4.xml" />
+  <monster name="Dino" file="Dino.xml" />
+  <monster name="Zarbon" file="Zarbon.xml" />
+  <monster name="Bandit Scout" file="Bandit Scout.xml" />
+  <monster name="Dinosaur" file="Dinosaur.xml" />
+  <monster name="Triceratops" file="Triceratops.xml" />
+  <monster name="Wolf" file="Wolf.xml" />
+  <monster name="Wolf Beast" file="Wolf Beast.xml" />
+  <monster name="Snake" file="Snake.xml" />
+  <monster name="Yakon" file="Yakon.xml" />
+  <monster name="Dabura" file="Dabura.xml" />
+  <monster name="Dodoria" file="Dodoria.xml" />
+  <monster name="Pig" file="Pig.xml" />
+  <monster name="Boar" file="Boar.xml" />
+  <monster name="Vampire" file="Vampire.xml" />
+  <monster name="Ghost" file="Ghost.xml" />
+  <monster name="Soldier" file="Soldier.xml" />
+  <monster name="Mummy" file="Mummy.xml" />
+  <monster name="Assassin" file="Assassin.xml" />
+  <monster name="Bandit" file="Bandit.xml" />
+  <monster name="Pui Pui" file="Pui Pui.xml" />
+  <monster name="Atlantid" file="Atlantid.xml" />
+  <monster name="Ginyu Squad" file="Ginyu Squad.xml" />
+  <monster name="Bandit Swordman" file="Bandit Swordman.xml" />
+  <monster name="Poison Fly" file="Poison Fly.xml" />
+  <monster name="Invader" file="Invader.xml" />
+  <monster name="Dragon" file="Dragon.xml" />
+  <monster name="Undead Dragon" file="Undead Dragon.xml" />
+  <monster name="Scorpion" file="Scorpion.xml" />
+  <monster name="Bojack" file="Bojack.xml" />
+  <monster name="Broly" file="Broly.xml" />
+  <monster name="C19 and C20" file="C19 And C20.xml" />
+  <monster name="Tank" file="Tank.xml" />
+  <monster name="Crusader" file="Crusader.xml" />
+  <monster name="Fighter" file="Fighter.xml" />
+  <monster name="Ancient Triceratops" file="Ancient Triceratops.xml" />
+  <monster name="Ancient Dinosaur" file="Ancient Dinosaur.xml" />
+  <monster name="Robotron" file="Robotron.xml" />
+  <monster name="Licantropo" file="Licantropo.xml" />
+  <monster name="Black Dragon" file="Black Dragon.xml" />
+  <monster name="Wind Elemental" file="Wind Elemental.xml" />
+  <monster name="Fire Elemental" file="Fire Elemental.xml" />
+  <monster name="Ice Elemental" file="Ice Elemental.xml" />
+  <monster name="Frontal Cyborg" file="Frontal Cyborg.xml" />
+  <monster name="Hell Fighter" file="Hell Fighter.xml" />
+  <monster name="Hellfire" file="Hellfire.xml" />
+  <monster name="Paikuhan" file="Paikuhan.xml" />
+  <monster name="Super Paikuhan" file="Super Paikuhan.xml" />
+  <monster name="Saibamen" file="Saibamen.xml" />
+  <monster name="Space Soldier" file="Space Soldier.xml" />
+  <monster name="Acqua" file="Acqua.xml" />
+  <monster name="Spopovitch" file="Spopovitch.xml" />
+  <monster name="Giant Bandit" file="Giant Bandit.xml" />
+  <monster name="Goku Ginyu" file="Goku Ginyu.xml" />
+  <monster name="Hell Janemba" file="Hell Janemba.xml" />
+  <monster name="Ozires" file="Ozires.xml" />
+  <monster name="Supreme Ssj5" file="Supreme Ssj5.xml" />
+  <monster name="Amon" file="Amon.xml" />
+  <monster name="Evil Janemba" file="Evil Janemba.xml" />
+  <monster name="King Vegeta" file="King Vegeta.xml" />
+  <monster name="Cell Jr" file="Cell Jr.xml" />
+  <monster name="C16" file="C16.xml" />
+  <monster name="C17" file="C17.xml" />
+  <monster name="C18" file="C18.xml" />
+  <monster name="Trunks SSJ4" file="Trunks SSJ4.xml" />
+  <monster name="Gohan SSJ4" file="Gohan SSJ4.xml" />
+  <monster name="Gohan SSJ5" file="Gohan SSJ5.xml" />
+  <monster name="Demon" file="Demon.xml" />
+  <monster name="Djin" file="Djin.xml" />
+  <monster name="Golden Djin" file="Golden Djin.xml" />
+  <monster name="Hell Ghost" file="Hell Ghost.xml" />
+  <monster name="C19" file="C19.xml" />
+  <monster name="Dr. Gero" file="Dr. Gero.xml" />
+  <monster name="Yamu" file="Yamu.xml" />
+  <monster name="C20" file="C20.xml" />
+  <monster name="Super Bojack" file="Super Bojack.xml" />
+  <monster name="Shenlong" file="Shenlong.xml" />
+  <monster name="Golden Oozaru" file="Golden Oozaru.xml" />
+  <monster name="Humanoid Cyborg" file="Humanoid Cyborg.xml" />
+  <monster name="Cell" file="Cell.xml" />
+  <monster name="Perfect Cell" file="Perfect Cell.xml" />
+  <monster name="Furie Cell" file="Furie Cell.xml" />
+  <monster name="Fat Janemba" file="Fat Janemba.xml" />
+  <monster name="Water Saibamen" file="Water Saibamen.xml" />
+  <monster name="Furie Namek" file="Furie Namek.xml" />
+  <monster name="Maniraptora" file="Maniraptora.xml" />
+  <monster name="Fat Boo" file="Fat Boo.xml" />
+  <monster name="Evil Boo" file="Evil Boo.xml" />
+  <monster name="Boo" file="Boo.xml" />
+  <monster name="Cooler" file="Cooler.xml" />
+  <monster name="San Shenron" file="San Shenron.xml" />
+  <monster name="Suu Shenron" file="Suu Shenron.xml" />
+  <monster name="Li Shenron" file="Li Shenron.xml" />
+  <monster name="Vegetto" file="Vegetto.xml" />
+  <monster name="Ancestral Guardian" file="Ancestral Guardian.xml" />
+  <monster name="Tao Pai Pai" file="Tao Pai Pai.xml" />
+  <monster name="Android Fly" file="Android Fly.xml" />
+  <monster name="Crocodile" file="Crocodile.xml" />
+  <monster name="Bandit Human" file="Bandit Human.xml" />
+  <monster name="Human" file="Human.xml" />
+  <monster name="Bandit Gun" file="Bandit Gun.xml" />
+  <monster name="Oozaru" file="Oozaru.xml" />
+  <monster name="Baby" file="Baby.xml" />
+  <monster name="Evil Tsuful" file="Evil Tsuful.xml" />
+  <monster name="Ghost SSJ3" file="Ghost SSJ3.xml" />
+  <monster name="Zombie" file="Zombie.xml" />
+  <monster name="Swampper" file="Swampper.xml" />
+  <monster name="Furie Gogeta" file="Furie Gogeta.xml" />
+  <monster name="Cooler Rage" file="Cooler Rage.xml" />
+  <monster name="Saiyan" file="Saiyan.xml" />
+  <monster name="Demonic" file="Demonic.xml" />
+  <monster name="Hawk" file="Hawk.xml" />
+  <monster name="Warlock" file="Warlock.xml" />
+  <monster name="Hydrosaur" file="Hydrosaur.xml" />
+  <monster name="Li Shenron Max" file="Li Shenron Max.xml" />
+  <monster name="Ryan Shenlong" file="Ryan Shenlong.xml" />
+  <monster name="Chii Shenlong" file="Chii Shenlong.xml" />
+  <monster name="Uu Shenlong" file="Uu Shenlong.xml" />
+  <monster name="Soldier Cyborg" file="Soldier Cyborg.xml" />
+  <monster name="Android Defense" file="Android Defense.xml" />
+  <monster name="Super Cyborg" file="Super Cyborg.xml" />
+  <monster name="Ultra Cyborg" file="Ultra Cyborg.xml" />
+  <monster name="Kid Janemba" file="Kid Janemba.xml" />
+  <monster name="Frozen King" file="Frozen King.xml" />
+  <monster name="Kibito" file="Kibito.xml" />
+  <monster name="Supreme Kaio" file="Supreme Kaio.xml" />
+  <monster name="Rou Dai Kaioshin" file="Rou Dai Kaioshin.xml" />
+  <monster name="Titanius" file="Titanius.xml" />
+  <monster name="Night Stalker" file="Night Stalker.xml" />
+  <monster name="Hell Scorpion" file="Hell Scorpion.xml" />
+</monsters>

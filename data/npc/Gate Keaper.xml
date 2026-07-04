@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Gate Keaper" script="travel.lua" walkinterval="0">
+	<health now="100" max="100"/>
+	<look type="466"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Digite o nome do local que deseja se teletransportar: {Earth}, {Sand City}, {M2}, {Tsufur}, {Zelta}, {Vegeta}, {Namek}, {Lude}, {Premia}, {Boar's Island}, {Ruudo}, {City 17}, {Gardia}."/>
+	</parameters>
+</npc>

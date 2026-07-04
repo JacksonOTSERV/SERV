@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Monster Hunt [EVENT]" script="monster_hunt.lua" walkinterval="0">
+	<health now="100" max="100" />
+	<look type="976"/>
+	<parameters>
+	<parameter key="message_greet" value="Olá, |PLAYERNAME|! Você deseja ver o {rank} do evento de caça ou deseja {saber} mais sobre ele?"/>
+	</parameters>
+</npc>

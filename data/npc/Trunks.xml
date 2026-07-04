@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Trunks" script="trunks.lua" walkinterval="2000">
+	<health now="100" max="100" />
+	<look type="69"/>
+	<parameters>
+		<parameter key="message_greet" value="Olá |PLAYERNAME|! Posso te dar um {radar} em troca de 100 senzu beans." />
+	</parameters>
+</npc>

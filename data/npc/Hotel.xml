@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Hotel" script="hotel.lua" walkinterval="2000">
+	<health now="100" max="100"/>
+	<look type="452"/>
+	<parameters>
+		<parameter key="message_greet" value="Olá |PLAYERNAME|! Eu vendo {Bone Key} (10g), {Golden Key} (10g), {Silver Key} (100g) e {Cooper Key} (100g)." />
+</parameters>
+</npc>

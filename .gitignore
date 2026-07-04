@@ -1,0 +1,9 @@
+# Build artifacts
+build/
+*.o
+*.obj
+
+# Logs
+*.log
+server.log
+data/logs/

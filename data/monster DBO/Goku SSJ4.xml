@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Goku SSJ4" nameDescription="an Goku SSJ4" race="blood" experience="35000" speed="650" manacost="0">
+  <health now="807500" max="807500" />
+  <look type="14" head="1" body="1" legs="1" feet="1" addons="0" corpse="12815" />
+  <targetchange interval="5000" chance="8" />
+  <strategy attack="100" defense="0" />
+  <flags>
+    <flag summonable="0" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="0" />
+    <flag convinceable="0" />
+    <flag pushable="1" />
+    <flag canpushitems="1" />
+    <flag canpushcreatures="1" />
+    <flag targetdistance="1" />
+    <flag staticattack="90" />
+    <flag runonhealth="0" />
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" min="-5000" max="-10000" />
+    <attack name="small genki dama" interval="1000" chance="25" min="-10000" max="-15000" />
+    <attack name="genki renzoku" interval="3000" chance="25" min="-1800" max="-2000" />
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <immunities>
+    <immunity physical="0" />
+    <immunity energy="0" />
+    <immunity fire="0" />
+    <immunity poison="0" />
+    <immunity lifedrain="0" />
+    <immunity paralyze="0" />
+    <immunity outfit="1" />
+    <immunity invisible="1" />
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Lute com todas suas forcas!" />
+    <voice sentence="Quero ver do que voce e capaz!" />
+    <voice sentence="Voce nao e pareo pra mim!" />
+  </voices>
+  <loot>
+    <item id="12655" chance="4000" />
+    <!-- Goku Armor -->
+    <item id="12675" chance="4000" />
+    <!-- Goku Legs -->
+    <item id="12693" chance="4000" />
+    <!-- Goku Boots -->
+    <item id="13387" chance="4000" />
+    <!-- Big Staff -->
+  </loot>
+</monster>

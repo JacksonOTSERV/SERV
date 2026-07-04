@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Sword Trader" script="default.lua" walkinterval="2000">
+	<health now="100" max="100"/>
+	<look type="460"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Olá, |PLAYERNAME|! Eu compro algumas Swords. Diga {Trade}."/>
+		<parameter key="shop_sellable" value="
+			Darkness Sword,12715,30000;
+			Jin Sword,12717,30000;
+			Demon Sword,12721,30000;
+			Scimithar,12722,30000;
+			Broly Sword,12723,30000;
+			Z Sword,12724,30000;
+			Elypson Sword,13447,30000;
+			Spirit Sword,12726,30000;
+			Rapier,12727,30000;
+			Janemba Sword,12728,30000;
+			Sword Of Fire,12729,30000;
+			Saiyan Sword,12730,30000;
+			Sword Of Ice,12731,30000
+		"/>
+	</parameters>
+</npc>

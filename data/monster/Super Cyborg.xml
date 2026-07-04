@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Super Cyborg" nameDescription="an Super Cyborg" race="energy" experience="20000" speed="800" manacost="0">
+  <health now="552500" max="552500" />
+  <look type="48" head="1" body="1" legs="1" feet="1" addons="0" corpse="16330" />
+  <targetchange interval="5000" chance="8" />
+  <strategy attack="100" defense="0" />
+  <flags>
+    <flag summonable="0" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="0" />
+    <flag convinceable="0" />
+    <flag pushable="1" />
+    <flag canpushitems="1" />
+    <flag canpushcreatures="1" />
+    <flag targetdistance="1" />
+    <flag staticattack="90" />
+    <flag runonhealth="0" />
+  </flags>
+  <attacks>
+    <attack name="melee" interval="500" min="-10000" max="-2000" />
+    <attack name="bomb" interval="1700" chance="50" min="-10000" max="-3000" />
+    <attack name="saiyajin blast" interval="4200" chance="50" min="-2500" max="-5000" />
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <immunities>
+    <immunity physical="0" />
+    <immunity energy="0" />
+    <immunity fire="0" />
+    <immunity poison="0" />
+    <immunity lifedrain="0" />
+    <immunity paralyze="1" />
+    <immunity outfit="1" />
+    <immunity invisible="1" />
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Alvo na Mira!" />
+    <voice sentence="Destruir!!!" />
+  </voices>
+</monster>

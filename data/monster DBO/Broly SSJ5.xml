@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Broly SSJ5" nameDescription="an Broly SSJ5" race="blood" experience="60000" speed="800" manacost="0">
+  <health now="840000" max="840000" />
+  <look type="119" head="1" body="1" legs="1" feet="1" addons="0" corpse="12782" />
+  <targetchange interval="5000" chance="8" />
+  <strategy attack="100" defense="0" />
+  <flags>
+    <flag summonable="0" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="0" />
+    <flag convinceable="0" />
+    <flag pushable="1" />
+    <flag canpushitems="1" />
+    <flag canpushcreatures="1" />
+    <flag targetdistance="1" />
+    <flag staticattack="90" />
+    <flag runonhealth="0" />
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" min="-14000" max="-16000" />
+    <attack name="barakuitsu blast" interval="5000" chance="25" min="-2000" max="-2500" />
+    <attack name="eraser blow" interval="4400" chance="25" min="-28000" max="-32000" />
+    <attack name="mega barrier" interval="1500" chance="25" min="-30000" max="-35000" />
+    <attack name="barakuitsu rio" interval="3300" chance="35" min="-33000" max="-35000" />
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <immunities>
+    <immunity physical="0" />
+    <immunity energy="0" />
+    <immunity fire="0" />
+    <immunity poison="0" />
+    <immunity lifedrain="0" />
+    <immunity paralyze="1" />
+    <immunity outfit="1" />
+    <immunity invisible="1" />
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="HAHAHA!!!" />
+    <voice sentence="KAKAROTOO!!!" />
+    <voice sentence="Aaaahhh!" />
+  </voices>
+  <loot>
+    <item id="12723" chance="4000" />
+    <!-- Broly Sword -->
+  </loot>
+</monster>

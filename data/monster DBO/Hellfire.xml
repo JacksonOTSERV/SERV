@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hellfire" nameDescription="an Hellfire" race="blood" experience="18000" speed="600" manacost="0">
+  <health now="50000" max="50000" />
+  <look type="404" head="94" body="94" legs="94" feet="94" addons="0" corpse="12863" />
+  <targetchange interval="5000" chance="8" />
+  <strategy attack="100" defense="0" />
+  <flags>
+    <flag summonable="0" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="0" />
+    <flag convinceable="0" />
+    <flag pushable="1" />
+    <flag canpushitems="1" />
+    <flag canpushcreatures="1" />
+    <flag targetdistance="1" />
+    <flag staticattack="90" />
+    <flag runonhealth="25" />
+  </flags>
+  <attacks>
+    <attack name="melee" interval="200" min="-1000" max="-2000" />
+    <attack name="mega bomb" interval="2000" min="-6000" max="-8000" />
+    <attack name="massive explosion" interval="4000" min="-8000" max="-15000" />
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <immunities>
+    <immunity physical="0" />
+    <immunity energy="0" />
+    <immunity fire="0" />
+    <immunity poison="0" />
+    <immunity lifedrain="0" />
+    <immunity paralyze="0" />
+    <immunity outfit="1" />
+    <immunity invisible="1" />
+  </immunities>
+</monster>

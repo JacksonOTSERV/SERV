@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Frodo" script="default.lua" walkinterval="0">
+	<health now="100" max="100"/>
+	<look type="462"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Olá, |PLAYERNAME|! Eu vendo jornais! Diga {Trade}."/>
+		<parameter key="shop_buyable" value="
+			Playboy,13100,10000;
+			Ticket,13215,100000
+		"/>
+	</parameters>
+</npc>

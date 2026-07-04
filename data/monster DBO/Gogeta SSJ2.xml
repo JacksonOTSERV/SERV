@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gogeta SSJ2" nameDescription="an Gogeta SSJ2" race="blood" experience="25000" speed="550" manacost="0">
+  <health now="500000" max="500000" />
+  <look type="6" head="1" body="1" legs="1" feet="1" addons="0" corpse="12835" />
+  <targetchange interval="5000" chance="8" />
+  <strategy attack="100" defense="0" />
+  <flags>
+    <flag summonable="0" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="0" />
+    <flag convinceable="0" />
+    <flag pushable="1" />
+    <flag canpushitems="1" />
+    <flag canpushcreatures="1" />
+    <flag targetdistance="1" />
+    <flag staticattack="90" />
+    <flag runonhealth="0" />
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" min="-10000" max="-15000" />
+    <attack name="chybie blast" interval="1000" chance="50" min="-800" max="-1500" />
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <immunities>
+    <immunity physical="0" />
+    <immunity energy="0" />
+    <immunity fire="0" />
+    <immunity poison="0" />
+    <immunity lifedrain="0" />
+    <immunity paralyze="0" />
+    <immunity outfit="1" />
+    <immunity invisible="1" />
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Lute com todas suas forcas!" />
+    <voice sentence="Quero ver do que voce e capaz!" />
+    <voice sentence="Voce nao e pareo pra mim!" />
+  </voices>
+  <loot>
+    <item id="12655" chance="2500" />
+    <!-- Goku Armor -->
+    <item id="12675" chance="2500" />
+    <!-- Goku Legs -->
+    <item id="12693" chance="2500" />
+    <!-- Goku Boots -->
+    <item id="12652" chance="2500" />
+    <!-- Majin Armor -->
+    <item id="12668" chance="2500" />
+    <!-- Majin Legs -->
+    <item id="12691" chance="2500" />
+    <!-- Majin Boots -->
+  </loot>
+</monster>

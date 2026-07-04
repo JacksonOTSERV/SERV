@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Zaiko" nameDescription="an Zaiko" race="blood" experience="50000" speed="800" manacost="0">
+  <health now="2750000" max="2750000" />
+  <look type="373" head="1" body="1" legs="1" feet="1" addons="0" corpse="13493" />
+  <targetchange interval="5000" chance="8" />
+  <strategy attack="100" defense="0" />
+  <flags>
+    <flag summonable="0" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="0" />
+    <flag convinceable="0" />
+    <flag pushable="1" />
+    <flag canpushitems="1" />
+    <flag canpushcreatures="1" />
+    <flag targetdistance="1" />
+    <flag staticattack="90" />
+    <flag runonhealth="0" />
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" min="-10000" max="-20000" />
+    <attack name="super explosion wave" interval="1000" chance="25" min="-20000" max="-27000" />
+    <attack name="genki renzoku" interval="3000" chance="25" min="-2000" max="-2800" />
+    <attack name="super ryuken" interval="2000" chance="25" min="-10000" max="-14000" />
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <immunities>
+    <immunity physical="0" />
+    <immunity energy="0" />
+    <immunity fire="0" />
+    <immunity poison="0" />
+    <immunity lifedrain="0" />
+    <immunity paralyze="1" />
+    <immunity outfit="1" />
+    <immunity invisible="1" />
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Tema perante meu pode!" />
+  </voices>
+  <loot>
+    <item id="2160" countmax="3" chance="7000" />
+    <!-- Golds -->
+  </loot>
+</monster>

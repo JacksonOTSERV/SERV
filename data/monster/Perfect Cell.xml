@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Perfect Cell" nameDescription="an Perfect Cell" race="blood" experience="16000" speed="650" manacost="0">
+  <health now="200000" max="200000" />
+  <look type="85" head="1" body="1" legs="1" feet="1" addons="0" corpse="16330" />
+  <targetchange interval="5000" chance="8" />
+  <strategy attack="100" defense="0" />
+  <flags>
+    <flag summonable="0" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="0" />
+    <flag convinceable="0" />
+    <flag pushable="1" />
+    <flag canpushitems="1" />
+    <flag canpushcreatures="1" />
+    <flag targetdistance="1" />
+    <flag staticattack="90" />
+    <flag runonhealth="0" />
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" min="-8500" max="-10000" />
+    <attack name="hell granade" interval="2000" min="-2200" max="-2500" />
+    <attack name="auto destruction" interval="3500" min="-4000" max="-5000" />
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <immunities>
+    <immunity physical="0" />
+    <immunity energy="0" />
+    <immunity fire="0" />
+    <immunity poison="0" />
+    <immunity lifedrain="0" />
+    <immunity paralyze="0" />
+    <immunity outfit="1" />
+    <immunity invisible="1" />
+  </immunities>
+  <summons maxSummons="2">
+    <summon name="Cell Jr" interval="2000" chance="10" max="2" />
+  </summons>
+  <voices interval="5000" chance="10">
+    <voice sentence="Este planeta esta condenado!" />
+    <voice sentence="Lute com todas suas forcas!" />
+    <voice sentence="Nao me derrotara facilmente!" />
+  </voices>
+  <loot>
+    <item id="12661" chance="2500" />
+    <!-- Cell Armor -->
+  </loot>
+</monster>

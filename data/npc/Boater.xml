@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Boater" script="boater.lua" walkinterval="0">
+	<health now="100" max="100"/>
+	<look type="459"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Olá, |PLAYERNAME|! Se voce me fornecer um {Ticket}, voce poderá viajar através do meu amigo Dederin."/>
+	</parameters>
+</npc>

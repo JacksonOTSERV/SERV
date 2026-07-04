@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tsuful SSJ5" nameDescription="an Tsuful SSJ5" race="blood" experience="60000" speed="850" manacost="0">
+  <health now="840000" max="840000" />
+  <look type="186" head="1" body="1" legs="1" feet="1" addons="0" corpse="12811" />
+  <targetchange interval="5000" chance="8" />
+  <strategy attack="100" defense="0" />
+  <flags>
+    <flag summonable="0" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="0" />
+    <flag convinceable="0" />
+    <flag pushable="1" />
+    <flag canpushitems="1" />
+    <flag canpushcreatures="1" />
+    <flag targetdistance="1" />
+    <flag staticattack="90" />
+    <flag runonhealth="0" />
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" min="-10000" max="-20000" />
+    <attack name="dark furie" interval="1000" chance="25" min="-23500" max="-25000" />
+    <attack name="ultimate shine" interval="3000" chance="25" min="-1900" max="-2300" />
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <immunities>
+    <immunity physical="0" />
+    <immunity energy="0" />
+    <immunity fire="0" />
+    <immunity poison="0" />
+    <immunity lifedrain="0" />
+    <immunity paralyze="1" />
+    <immunity outfit="1" />
+    <immunity invisible="1" />
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Sinta a minha furia!!!" />
+    <voice sentence="Mate-me ou morra tentando!" />
+  </voices>
+  <loot>
+    <item id="12656" chance="4000" />
+    <!-- Tsuful Armor -->
+    <item id="12731" chance="4000" />
+    <!-- Sword Of Ice -->
+  </loot>
+</monster>

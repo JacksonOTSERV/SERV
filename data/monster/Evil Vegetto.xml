@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Evil Vegetto" nameDescription="an evil vegetto" race="blood" experience="28000" speed="800" manacost="0">
+  <health now="807500" max="807500" />
+  <look type="313" head="1" body="1" legs="1" feet="1" addons="0" corpse="16330" />
+  <targetchange interval="5000" chance="8" />
+  <strategy attack="100" defense="0" />
+  <flags>
+    <flag summonable="0" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="0" />
+    <flag convinceable="0" />
+    <flag pushable="1" />
+    <flag canpushitems="1" />
+    <flag canpushcreatures="1" />
+    <flag targetdistance="1" />
+    <flag staticattack="90" />
+    <flag runonhealth="0" />
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" min="-10000" max="-20000" />
+    <attack name="fusion storm" interval="1000" chance="25" min="-20000" max="-27000" />
+    <attack name="Super ki blast" interval="3000" chance="25" min="-2000" max="-2800" />
+    <attack name="Guided Scatter Shot" interval="2000" chance="25" min="-10000" max="-14000" />
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <immunities>
+    <immunity physical="0" />
+    <immunity energy="0" />
+    <immunity fire="0" />
+    <immunity poison="0" />
+    <immunity lifedrain="0" />
+    <immunity paralyze="1" />
+    <immunity outfit="1" />
+    <immunity invisible="1" />
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Lute com todas suas forcas!" />
+    <voice sentence="Quero ver do que voce e capaz!" />
+    <voice sentence="Voce me enfureceu!" />
+  </voices>
+  <loot>
+    <item id="13387" chance="2500" />
+    <!-- Big Staff -->
+    <item id="12655" chance="2500" />
+    <!-- Goku Armor -->
+    <item id="12675" chance="2500" />
+    <!-- Goku Legs -->
+    <item id="12693" chance="2500" />
+    <!-- Goku Boots -->
+  </loot>
+</monster>

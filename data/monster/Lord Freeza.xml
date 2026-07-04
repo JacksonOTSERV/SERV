@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Lord Freeza" nameDescription="an Lord Freeza" race="blood" experience="25000" speed="850" manacost="0">
+  <health now="980000" max="980000" />
+  <look type="96" head="1" body="1" legs="1" feet="1" addons="0" corpse="16330" />
+  <targetchange interval="5000" chance="8" />
+  <strategy attack="100" defense="0" />
+  <flags>
+    <flag summonable="0" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="0" />
+    <flag convinceable="0" />
+    <flag pushable="1" />
+    <flag canpushitems="1" />
+    <flag canpushcreatures="1" />
+    <flag targetdistance="1" />
+    <flag staticattack="90" />
+    <flag runonhealth="0" />
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" min="-11000" max="-13000" />
+    <attack name="psycho barrier" interval="1000" chance="25" min="-10000" max="-16000" />
+    <attack name="nova" interval="2000" chance="25" min="-14000" max="-18000" />
+    <attack name="nova blast" interval="3000" chance="25" min="-2500" max="-3600" />
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <immunities>
+    <immunity physical="0" />
+    <immunity energy="0" />
+    <immunity fire="0" />
+    <immunity poison="0" />
+    <immunity lifedrain="0" />
+    <immunity paralyze="1" />
+    <immunity outfit="1" />
+    <immunity invisible="1" />
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="MORRA DESGRACADO!" />
+    <voice sentence="Nao me provoque!" />
+  </voices>
+  <loot>
+    <item id="12730" chance="2500" />
+    <!-- Saiyan Sword -->
+  </loot>
+</monster>

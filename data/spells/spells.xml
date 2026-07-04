@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spells>
+<!-- magias all personagens (healing) -->
+<instant spellid="1" group="healing" name="Regeneration" words="regeneration" lvl="1" mana="1000" aggressive="0" selftarget="1" script="Healing/regeneration.lua">
+</instant>
+
+<instant spellid="2" group="healing" name="Big regeneration" words="big regeneration" lvl="250" mana="2000" magiclevel="100" aggressive="0" selftarget="1" script="Healing/big_regeneration.lua">
+</instant>
+
+<!-- magias all personagens (suporte) -->
+<instant spellid="3" group="support" name="Powerdown" words="powerdown" lvl="25" mana="1" aggressive="0" prem="0" blockwalls="1" script="Support/powerdown.lua">
+</instant>
+
+<instant spellid="4" group="support" name="Skip" words="skip" lvl="1" script="Support/skip.lua">
+</instant>
+
+<instant spellid="5" group="support" name="Sense" words="sense" lvl="75" mana="1000" aggressive="0" params="1" exhaustion="1000" script="Support/sense.lua">
+</instant>
+
+
+<instant spellid="6" group="support" name="Aura" words="aura" lvl="1" mana="10" aggressive="0" script="Support/aura.lua">
+</instant>
+
+<instant spellid="7" group="support" name="Kai" words="kai" lvl="50" mana="1000" prem="0" needlearn="0" blockwalls="1" enabled="1" script="Support/kai.lua">
+</instant>
+
+<instant spellid="8" group="support" name="Speed up" words="speed up" lvl="10" mana="1000" prem="0" script="Support/speed up.lua">
+</instant>
+
+<instant spellid="9" group="support" name="Super speed" words="super speed" lvl="100" magiclevel="100" mana="1000" prem="0" script="Support/super speed.lua">
+</instant>
+
+<rune spellid="13" group="special" name="magic wall" id="13578" soul="1" range="6" allowfaruse="1" blocktype="all" script="Support/magicwall.lua"/>
+
+<instant spellid="35" group="special" name="Fly kubu" words="fly kubu" lvl="125" mana="0" script="Support/fly kubu.lua">
+</instant>
+
+<instant spellid="36" group="special" name="Fight kubu" words="fight kubu" lvl="125" mana="0" script="Support/fight kubu.lua">
+</instant>
+
+<!-- magias all personagens (attack) -->
+<instant group="attack" name="Generic ki blast" words="generic ki blast" mana="100" lvl="1" needtarget="1" range="6" blockwalls="1" script="Attack/generic ki blast.lua">
+</instant>
+
+<instant group="attack" name="Ki blast" words="ki blast" lvl="30" mana="500" needtarget="1" range="6" blockwalls="1" script="Attack/ki blast.lua">
+</instant>
+
+<instant group="attack" name="Big explosion" words="big explosion" lvl="50" mana="1500" needtarget="0" script="Attack/big explosion.lua">
+</instant>
+
+<instant group="attack" name="Energy blast" words="energy blast" lvl="75" mana="1000" needtarget="1" blockwalls="1" script="Attack/energy blast.lua">
+</instant>
+
+<!-- magias all personagens (buffs) -->
+<instant spellid="10" group="healing" name="Big power up" words="big power up" lvl="100" magiclevel="50" mana="2500" description="Buff que aumenta regen de vida e KI 2000/s. Skills de ki level, sword e club sao baseadas no seu buff upgrade. Duração de 30 segundos." script="Buffs/Big Power Up.lua">
+</instant>
+
+<instant spellid="11" group="healing" name="Giga power up" words="giga power up" lvl="250" magiclevel="80" mana="8000" description="Buff que aumenta regen de vida e KI 4000/s. Skills de ki level, sword e club sao baseadas no seu buff upgrade. Duração de 45 segundos." script="Buffs/Giga Power Up.lua">
+</instant>
+
+<instant spellid="12" group="healing" name="Ultimate power up" words="ultimate power up" lvl="400" magiclevel="110" mana="3000" description="Buff que aumenta regen de vida e KI 6000/s. Adiciona +5 de all skills, pode aumentar mais de acordo com seu nivel de buff upgrade. Duração de 60 segundos." script="Buffs/Ultimate Power Up.lua">
+</instant>
+
+<!-- magias Goku -->
+<instant group="attack" name="Super explosion wave" words="super explosion wave" lvl="100" magiclevel="60" mana="2800" aggressive="1" exhaustion="900" script="Goku/100.lua">
+<vocation name="Goku"/>
+<vocation name="Vegeta"/>
+</instant>
+
+<instant group="attack" name="Renzoku kienzan" words="renzoku kienzan" lvl="150" magiclevel="70" mana="2800" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Goku/150.lua">
+<vocation name="Goku"/>
+</instant>
+
+<instant group="attack" name="Impact blast" words="impact blast" lvl="200" magiclevel="100" mana="2900" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Goku/200.lua">
+<vocation name="Goku"/>
+</instant>
+
+<instant group="attack" name="Small genki blast" words="small genki blast" lvl="250" magiclevel="110" mana="3000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Goku/250.lua">
+<vocation name="Goku"/>
+</instant>
+
+<instant group="attack" name="Super kamehameha" words="super kamehameha" lvl="300" magiclevel="115" mana="8000" direction="1" blockwalls="1" agressive="1" exhaustion="200" script="Goku/300.lua">
+<vocation name="Goku"/>
+<vocation name="Gohan"/>
+</instant>
+
+<instant spellid="14" group="special" name="Migatte no gokui" words="migatte no gokui" lvl="350" magiclevel="125" mana="0" description="Goku aumenta sua regeneração/shield (dodge/esquiva)/velocidade de speed e ataque drasticamente durante 8 segundos. Cooldown de 45 segundos." script="Goku/migatte.lua">
+<vocation name="Goku"/>
+</instant>
+
+<instant group="attack" name="Dragon fist attack" words="dragon fist attack" lvl="400" magiclevel="130" mana="8000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Goku/400.lua">
+<vocation name="Goku"/>
+</instant>
+
+<!-- magias Vegeta -->
+<instant group="attack" name="Furie blast" words="furie blast" lvl="150" magiclevel="70" mana="2800" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Vegeta/150.lua">
+<vocation name="Vegeta"/>
+</instant>
+
+<instant group="attack" name="Final shine" words="final shine" lvl="200" magiclevel="100" mana="2900" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Vegeta/200.lua">
+<vocation name="Vegeta"/>
+<vocation name="Trunks"/>
+</instant>
+
+<instant group="attack" name="Saiyajin blast" words="saiyajin blast" lvl="250" magiclevel="110" mana="3000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Vegeta/250.lua">
+<vocation name="Vegeta"/>
+</instant>
+
+<instant group="attack" name="Super final flash" words="super final flash" lvl="300" magiclevel="115" mana="8000" direction="1" blockwalls="1" agressive="1" exhaustion="200" script="Vegeta/300.lua">
+<vocation name="Vegeta"/>
+<vocation name="Trunks"/>
+</instant>
+
+<instant spellid="15" group="special" name="Ki sense" words="ki sense" lvl="350" magiclevel="125" mana="0" agressive="1" playernameparam="1" params="1" description="Vegeta visualiza em TEMPO REAL o alvo escolhido com: Ki sense '[NOMEDOPLAYER] por 5 segundos. Caso seja atacado por qualquer criatura enquanto visualiza alguém em tempo real, retorna para a posição que estava. Vegeta não consegue visualizar jogadores com 100 leveis ou mais de diferença dele. Cooldown de 40 segundos." script="Vegeta/ki sense.lua">
+<vocation name="Vegeta"/>
+</instant>
+
+<instant group="attack" name="Big bang attack" words="big bang attack" lvl="400" magiclevel="130" mana="8000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Vegeta/400.lua">
+<vocation name="Vegeta"/>
+</instant>
+
+<!-- magias Piccolo -->
+<instant group="attack" name="Namekjin wave" words="namekjin wave" lvl="100" magiclevel="60" mana="2800" aggressive="1" exhaustion="900" script="Piccolo/100.lua">
+<vocation name="Piccolo"/>
+</instant>
+
+<instant group="attack" name="Makankosappo" words="makankosappo" lvl="150" magiclevel="70" mana="2800" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Piccolo/150.lua">
+<vocation name="Piccolo"/>
+</instant>
+
+<instant group="attack" name="Namekjin rage" words="namekjin rage" lvl="200" magiclevel="100" mana="2900" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Piccolo/200.lua">
+<vocation name="Piccolo"/>
+</instant>
+
+<instant group="attack" name="Shishin no ken" words="shishin no ken" lvl="250" magiclevel="110" mana="3000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Piccolo/250.lua">
+<vocation name="Piccolo"/>
+</instant>
+
+<instant group="attack" name="Kochi kara kikou ha" words="kochi kara kikou ha" lvl="300" magiclevel="115" mana="8000" direction="1" blockwalls="1" agressive="1" exhaustion="200" script="Piccolo/300.lua">
+<vocation name="Piccolo"/>
+</instant>
+
+<instant spellid="16" group="special" name="Namekian clone" words="namekian clone" lvl="350" magiclevel="125" mana="0" blockwalls="1" agressive="1" description="Summona um Clone que quando chega até 3 SQMS do seu target, lhe stunna por 3 segundos, sumindo. Cooldown de 35 segundos." script="Piccolo/clone.lua">
+<vocation name="Piccolo"/>
+</instant>
+
+<instant name="stunclone" words="###96" aggressive="1" blockwalls="1" needtarget="1" range="3" needlearn="1" script="Piccolo/stunclone.lua"/>
+
+<instant group="attack" name="Demon hand" words="demon hand" lvl="400" magiclevel="130" mana="8000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Piccolo/400.lua">
+<vocation name="Piccolo"/>
+<vocation name="Cell"/>
+</instant>
+
+<!-- magias C17 -->
+<instant group="attack" name="Self destruction" words="self destruction" lvl="100" magiclevel="60" mana="2800" aggressive="1" exhaustion="900" script="C17/100.lua">
+<vocation name="C17"/>
+</instant>
+
+<instant group="attack" name="Hell ball" words="hell ball" lvl="150" magiclevel="70" mana="2800" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="C17/150.lua">
+<vocation name="C17"/>
+</instant>
+
+<instant group="attack" name="Black blitz" words="black blitz" lvl="200" magiclevel="100" mana="2900" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="C17/200.lua">
+<vocation name="C17"/>
+</instant>
+
+<instant group="attack" name="Deadly bomb" words="deadly bomb" lvl="250" magiclevel="110" mana="3000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="C17/250.lua">
+<vocation name="C17"/>
+</instant>
+
+<instant group="attack" name="Energy sign" words="energy sign" lvl="300" magiclevel="115" mana="8000" direction="1" blockwalls="1" agressive="1" exhaustion="200" script="C17/300.lua">
+<vocation name="C17"/>
+</instant>
+
+<instant spellid="17" group="special" name="Android barrier" words="android barrier" lvl="350" magiclevel="125" mana="0" agressive="1" description="Reflete 50% do dano recebido por 5 segundos. Cooldown de 60 segundos." script="C17/android barrier.lua">
+<vocation name="C17"/>
+</instant>
+
+<instant group="attack" name="Cyborg explosion" words="cyborg explosion" lvl="400" magiclevel="130" mana="8000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="C17/400.lua">
+<vocation name="C17"/>
+</instant>
+
+<!-- magias Gohan -->
+<instant group="attack" name="Super saiyaman furie" words="super saiyaman furie" lvl="100" magiclevel="60" mana="2800" aggressive="1" exhaustion="900" script="Gohan/100.lua">
+<vocation name="Gohan"/>
+</instant>
+
+<instant group="attack" name="Saiyaman ball" words="saiyaman ball" lvl="150" magiclevel="70" mana="2800" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Gohan/150.lua">
+<vocation name="Gohan"/>
+</instant>
+
+<instant group="attack" name="Saiyaman power" words="saiyaman power" lvl="200" magiclevel="100" mana="2900" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Gohan/200.lua">
+<vocation name="Gohan"/>
+</instant>
+
+<instant group="attack" name="Saiyaman blast" words="saiyaman blast" lvl="250" magiclevel="110" mana="3000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Gohan/250.lua">
+<vocation name="Gohan"/>
+</instant>
+
+<instant spellid="18" group="special" name="Rage ozaru" words="rage ozaru" lvl="350" magiclevel="125" mana="0" agressive="1" description="Se transforma no ozaru, aumentando o stats de dano de forma geral durante 8 segundos. Cooldown de 45 segundos" script="Gohan/ozaru.lua">
+<vocation name="Gohan"/>
+</instant>
+
+<instant group="attack" name="Mystic saiyaman" words="mystic saiyaman" lvl="400" magiclevel="130" mana="8000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Gohan/400.lua">
+<vocation name="Gohan"/>
+</instant>
+
+<!-- magias Trunks -->
+<instant group="attack" name="Sword furie" words="sword furie" lvl="100" magiclevel="60" mana="2800" aggressive="1" exhaustion="900" script="Trunks/100.lua">
+<vocation name="Trunks"/>
+</instant>
+
+<instant group="attack" name="Massive sword" words="massive sword" lvl="150" magiclevel="70" mana="2800" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Trunks/150.lua">
+<vocation name="Trunks"/>
+</instant>
+
+<instant group="attack" name="Massive blast" words="massive blast" lvl="250" magiclevel="110" mana="3000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Trunks/250.lua">
+<vocation name="Trunks"/>
+</instant>
+
+<instant spellid="19" group="special" name="Massive chikeitu" words="massive chikeitu" lvl="350" magiclevel="125" mana="0" agressive="1" description="Trunks dasha em 8sqms em linha reta, silenciando as tecnicas especiais de todos até 1sqm ao redor dele que não estiverem em party durante 5 segundos. Cooldown de 60 segundos." script="Trunks/massive chikeitu.lua">
+<vocation name="Trunks"/>
+</instant>
+
+<instant group="attack" name="Massive sword attack" words="massive sword attack" lvl="400" magiclevel="130" mana="8000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Trunks/400.lua">
+<vocation name="Trunks"/>
+</instant>
+
+<!-- magias Cell -->
+<instant group="attack" name="Auto destruction" words="auto destruction" lvl="100" magiclevel="60" mana="2800" aggressive="1" exhaustion="900" script="Cell/100.lua">
+<vocation name="Cell"/>
+</instant>
+
+<instant group="attack" name="Hell granade" words="hell granade" lvl="150" magiclevel="70" mana="2800" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Cell/150.lua">
+<vocation name="Cell"/>
+</instant>
+
+<instant group="attack" name="Kienzan" words="kienzan" lvl="200" magiclevel="100" mana="2900" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Cell/200.lua">
+<vocation name="Cell"/>
+</instant>
+
+<instant group="attack" name="Super hell granade" words="super hell granade" lvl="250" magiclevel="110" mana="3000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Cell/250.lua">
+<vocation name="Cell"/>
+</instant>
+
+<instant spellid="20" group="special" name="Kyushu" words="kyushu" lvl="350" magiclevel="125" mana="0" agressive="1" description="Ao ativar a técnica, caso Cell seja derrotado durante os 8 segundos de duração, ele não morrerá imediatamente. Em vez disso, ficará caído no chão por 3 segundos, recuperando suas energias até renascer. Ao retornar, ele recupera 100% da vida. Cooldown de 60 segundos." script="Cell/kyushu.lua">
+<vocation name="Cell"/>
+</instant>
+
+<instant group="attack" name="Taiyouken" words="taiyouken" lvl="300" magiclevel="115" mana="8000" direction="1" blockwalls="1" agressive="1" exhaustion="200" script="Cell/300.lua">
+<vocation name="Cell"/>
+</instant>
+
+<!-- magias Freeza -->
+<instant group="attack" name="Psycho barrier" words="psycho barrier" lvl="100" magiclevel="60" mana="2800" aggressive="1" exhaustion="900" script="Freeza/100.lua">
+<vocation name="Freeza"/>
+</instant>
+
+<instant group="attack" name="Infinity psycho" words="infinity psycho" lvl="150" magiclevel="70" mana="2800" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Freeza/150.lua">
+<vocation name="Freeza"/>
+</instant>
+
+<instant group="attack" name="Psycho impact" words="psycho impact" lvl="200" magiclevel="100" mana="2900" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Freeza/200.lua">
+<vocation name="Freeza"/>
+</instant>
+
+<instant group="attack" name="Pressure dust" words="pressure dust" lvl="250" magiclevel="110" mana="3000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Freeza/250.lua">
+<vocation name="Freeza"/>
+</instant>
+
+<instant group="attack" name="Death cannon" words="death cannon" lvl="300" magiclevel="115" mana="8000" direction="1" blockwalls="1" agressive="1" exhaustion="200" script="Freeza/300.lua">
+<vocation name="Freeza"/>
+</instant>
+
+<instant spellid="21" group="special" name="Death beam" words="death beam" lvl="350" magiclevel="125" mana="0" needtarget="1" range="5" blockwalls="1" description="Freeza diminui a speed base do seu alvo se estiver até 5sqms de distancia dele e impede-o de utilizar qualquer condição de speed (a não ser especiais que aumentem a speed) por 3 segundos. Cooldown de 15 segundos." script="Freeza/death beam.lua">
+<vocation name="Freeza"/>
+</instant>
+
+<instant group="attack" name="Evil kienzan" words="evil kienzan" lvl="400" magiclevel="130" mana="8000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Freeza/400.lua">
+<vocation name="Freeza"/>
+</instant>
+
+<!-- magias Buu -->
+<instant group="attack" name="Jinruizetsu" words="jinruizetsu" lvl="100" magiclevel="60" mana="2800" aggressive="1" exhaustion="900" script="Buu/100.lua">
+<vocation name="Buu"/>
+</instant>
+
+<instant group="attack" name="Lightning arrow" words="lightning arrow" lvl="150" magiclevel="70" mana="2800" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Buu/150.lua">
+<vocation name="Buu"/>
+</instant>
+
+<instant group="attack" name="Chikyuu hou kai" words="chikyuu hou kai" lvl="200" magiclevel="100" mana="2900" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Buu/200.lua">
+<vocation name="Buu"/>
+</instant>
+
+<instant group="attack" name="Pink ball" words="pink ball" lvl="250" magiclevel="110" mana="3000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Buu/250.lua">
+<vocation name="Buu"/>
+</instant>
+
+<instant group="attack" name="Chikyuu kamehameha" words="chikyuu kamehameha" lvl="300" magiclevel="115" mana="8000" direction="1" blockwalls="1" agressive="1" exhaustion="200" script="Buu/300.lua">
+<vocation name="Buu"/>
+</instant>
+
+<instant spellid="22" group="special" name="Choco buster beam" words="choco buster beam" lvl="350" magiclevel="125" mana="0" needtarget="1" range="5" blockwalls="1" description="Buu derrama chocolate em cima do seu inimigo que estiver até 5sqms de distancia dele, deixando-o impossibilitado de andar durante 4 segundos. Cooldown de 40 segundos." script="Buu/choco buster beam.lua">
+<vocation name="Buu"/>
+</instant>
+
+<instant group="attack" name="Rage pink beam" words="rage pink beam" lvl="400" magiclevel="130" mana="8000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Buu/400.lua">
+<vocation name="Buu"/>
+</instant>
+
+<!-- magias Broly -->
+<instant group="attack" name="Barakuitsu furie" words="barakuitsu furie" lvl="100" magiclevel="60" mana="2800" aggressive="1" exhaustion="900" script="Broly/100.lua">
+<vocation name="Broly"/>
+</instant>
+
+<instant group="attack" name="Barakuitsu" words="barakuitsu" lvl="150" magiclevel="70" mana="2800" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Broly/150.lua">
+<vocation name="Broly"/>
+</instant>
+
+<instant group="attack" name="Barakuitsu rio" words="barakuitsu rio" lvl="200" magiclevel="100" mana="2900" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Broly/200.lua">
+<vocation name="Broly"/>
+</instant>
+
+<instant group="attack" name="Barakuitsu blast" words="barakuitsu blast" lvl="250" magiclevel="110" mana="3000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Broly/250.lua">
+<vocation name="Broly"/>
+</instant>
+
+<instant group="attack" name="Shunkan barakuisu rio" words="shunkan barakuisu rio" lvl="300" magiclevel="115" mana="8000" direction="1" blockwalls="1" agressive="1" exhaustion="200" script="Broly/300.lua">
+<vocation name="Broly"/>
+</instant>
+
+<instant spellid="23" group="special" name="Shunkan rio" words="shunkan rio" lvl="350" magiclevel="125" mana="0" description="Broly bloqueia 100% de todos os danos recebidos durante 5 segundos. Cooldown de 50 segundos." script="Broly/shunkan rio.lua">
+<vocation name="Broly"/>
+</instant>
+
+<instant group="attack" name="Omega blast" words="omega blast" lvl="400" magiclevel="130" mana="8000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Broly/400.lua">
+<vocation name="Broly"/>
+</instant>
+
+<!-- magias Goten -->
+<instant group="attack" name="Fusion explosion" words="fusion explosion" lvl="100" magiclevel="60" mana="2800" aggressive="1" exhaustion="900" script="Goten/100.lua">
+<vocation name="Goten"/>
+</instant>
+
+<instant group="attack" name="Renzoku shine missile" words="renzoku shine missile" lvl="150" magiclevel="70" mana="2800" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Goten/150.lua">
+<vocation name="Goten"/>
+</instant>
+
+<instant group="attack" name="Sayajin blast" words="sayajin blast" lvl="200" magiclevel="100" mana="2900" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Goten/200.lua">
+<vocation name="Goten"/>
+</instant>
+
+<instant group="attack" name="Super kamikaze attack" words="super kamikaze attack" lvl="250" magiclevel="110" mana="3000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Goten/250.lua">
+<vocation name="Goten"/>
+</instant>
+
+<instant group="attack" name="Ultra final flash" words="ultra final flash" lvl="300" magiclevel="115" mana="8000" direction="1" blockwalls="1" agressive="1" exhaustion="200" script="Goten/300.lua">
+<vocation name="Goten"/>
+</instant>
+
+<instant spellid="24" group="special" name="Kai super kamikaze" words="kai super kamikaze" lvl="350" magiclevel="125" mana="0" needtarget="1" range="5" blockwalls="1" description="Goten inverte todos os comandos de walk do alvo. Se ele tentar andar para a esquerda, ira andar para a direita, isso dura 5 segundos. Range de 5 SQM, cooldown de 45 segundos." script="Goten/kai super kamikaze.lua">
+<vocation name="Goten"/>
+</instant>
+
+<instant group="attack" name="Galactic donut" words="galactic donut" lvl="400" magiclevel="130" mana="8000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Goten/400.lua">
+<vocation name="Goten"/>
+</instant>
+
+<!-- magias Kuririn -->
+<instant group="attack" name="Energy wave" words="energy wave" lvl="100" magiclevel="60" mana="2800" aggressive="1" exhaustion="900" script="Kuririn/100.lua">
+<vocation name="Kuririn"/>
+</instant>
+
+<instant group="attack" name="Simple kienzan" words="simple kienzan" lvl="150" magiclevel="70" mana="2800" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Kuririn/150.lua">
+<vocation name="Kuririn"/>
+</instant>
+
+<instant group="attack" name="Kaukusudan" words="kaukusudan" lvl="200" magiclevel="100" mana="2900" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Kuririn/200.lua">
+<vocation name="Kuririn"/>
+</instant>
+
+<instant group="attack" name="Triple kienzan" words="triple kienzan" lvl="250" magiclevel="110" mana="3000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Kuririn/250.lua">
+<vocation name="Kuririn"/>
+</instant>
+
+<instant group="attack" name="Chou kamehameha" words="chou kamehameha" lvl="300" magiclevel="115" mana="8000" direction="1" blockwalls="1" agressive="1" exhaustion="200" script="Kuririn/300.lua">
+<vocation name="Kuririn"/>
+<vocation name="Kame"/>
+</instant>
+
+<instant spellid="25" group="special" name="Flash kienzan" words="flash kienzan" lvl="350" magiclevel="125" mana="0" needtarget="1" range="3" blockwalls="1" description="Kuririn cega totalmente seu alvo, impedindo-o de visualizar monstros e players do andar em que ele está e atacar qualquer pessoa durante 4 segundos. Range de 3 SQM, cooldown de 60 segundos." script="Kuririn/flash kienzan.lua">
+<vocation name="Kuririn"/>
+</instant>
+
+<instant group="attack" name="Super kienzan" words="super kienzan" lvl="400" magiclevel="130" mana="8000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Kuririn/400.lua">
+<vocation name="Kuririn"/>
+</instant>
+
+<!-- magias Janemba -->
+<instant group="attack" name="Demon furie" words="demon furie" lvl="100" magiclevel="60" mana="2800" aggressive="1" exhaustion="900" script="Janemba/100.lua">
+<vocation name="Janemba"/>
+</instant>
+
+<instant group="attack" name="Sword throw" words="sword throw" lvl="150" magiclevel="70" mana="2800" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Janemba/150.lua">
+<vocation name="Janemba"/>
+</instant>
+
+<instant group="attack" name="Demon rage" words="demon rage" lvl="200" magiclevel="100" mana="2900" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Janemba/200.lua">
+<vocation name="Janemba"/>
+</instant>
+
+<instant group="attack" name="Demon blast" words="demon blast" lvl="250" magiclevel="110" mana="3000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Janemba/250.lua">
+<vocation name="Janemba"/>
+</instant>
+
+<instant group="attack" name="Jigoku beam" words="jigoku beam" lvl="300" magiclevel="115" mana="8000" direction="1" blockwalls="1" agressive="1" exhaustion="200" script="Janemba/300.lua">
+<vocation name="Janemba"/>
+</instant>
+
+<instant spellid="26" group="special" name="Demon hell rage" words="demon hell rage" lvl="350" magiclevel="125" mana="0" range="3" blockwalls="1" description="Janemba puxa seu alvo para um X1 no HELL. O janemba recebe um buff de all skills em +10 enquanto estiver nesse local com duração de 8 segundos. Range de 3 SQM, cooldown de 75 segundos." script="Janemba/demon hell rage.lua">
+<vocation name="Janemba"/>
+</instant>
+
+<instant group="attack" name="Sword dance" words="sword dance" lvl="400" magiclevel="130" mana="8000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Janemba/400.lua">
+<vocation name="Janemba"/>
+</instant>
+
+<!-- magias Tapion -->
+<instant group="attack" name="Brave furie" words="brave furie" lvl="100" magiclevel="60" mana="2800" aggressive="1" exhaustion="900" script="Tapion/100.lua">
+<vocation name="Tapion"/>
+</instant>
+
+<instant group="attack" name="Brave sword Attack" words="brave sword attack" lvl="150" magiclevel="70" mana="2800" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Tapion/150.lua">
+<vocation name="Tapion"/>
+</instant>
+
+<instant group="attack" name="Brave slash" words="brave slash" lvl="200" magiclevel="100" mana="2900" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Tapion/200.lua">
+<vocation name="Tapion"/>
+</instant>
+
+<instant group="attack" name="Brave shine" words="brave shine" lvl="250" magiclevel="110" mana="3000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Tapion/250.lua">
+<vocation name="Tapion"/>
+</instant>
+
+<instant group="attack" name="Final hell cannon" words="final hell cannon" lvl="300" magiclevel="115" mana="8000" direction="1" blockwalls="1" agressive="1" exhaustion="200" script="Tapion/300.lua">
+<vocation name="Tapion"/>
+<vocation name="Shenron"/>
+</instant>
+
+<instant spellid="27" group="special" name="Heros flute" words="heros flute" lvl="350" magiclevel="125" mana="0" needtarget="1" range="5" blockwalls="1" description="Tapion silencia todas as tecnicas de damage e especiais do seu alvo, permitindo-o apenas se curar durante 4 segundos. Range de 5 SQM, cooldown de 40 segundos." script="Tapion/heros flute.lua">
+<vocation name="Tapion"/>
+</instant>
+
+<instant group="attack" name="Rapid sword stream" words="rapid sword stream" lvl="400" magiclevel="130" mana="8000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Tapion/400.lua">
+<vocation name="Tapion"/>
+</instant>
+
+<!-- magias Chilled -->
+<instant group="attack" name="Death nodo" words="death nodo" lvl="100" magiclevel="60" mana="2800" aggressive="1" exhaustion="900" script="Chilled/100.lua">
+<vocation name="Chilled"/>
+</instant>
+
+<instant group="attack" name="Ruthless blow" words="ruthless blow" lvl="150" magiclevel="70" mana="2800" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Chilled/150.lua">
+<vocation name="Chilled"/>
+</instant>
+
+<instant group="attack" name="Concentrate razor" words="concentrate razor" lvl="200" magiclevel="100" mana="2900" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Chilled/200.lua">
+<vocation name="Chilled"/>
+</instant>
+
+<instant group="attack" name="Ruthless spikes" words="ruthless spikes" lvl="250" magiclevel="110" mana="3000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Chilled/250.lua">
+<vocation name="Chilled"/>
+</instant>
+
+<instant group="attack" name="Death razor" words="death razor" lvl="300" magiclevel="115" mana="8000" direction="1" blockwalls="1" agressive="1" exhaustion="200" script="Chilled/300.lua">
+<vocation name="Chilled"/>
+</instant>
+
+<instant spellid="28" group="special" name="Sobagashira mahi" words="sobagashira mahi" lvl="350" magiclevel="125" mana="0" needtarget="1" range="5" blockwalls="1" description="Chilled diminui a speed base do seu alvo se estiver até 6sqms de distancia dele e impede-o de utilizar qualquer condição de speed (a não ser especiais que aumentem a speed) por 4 segundos, juntamente com envenenamento. Cooldown de 25 segundos." script="Chilled/sobagashira mahi.lua">
+<vocation name="Chilled"/>
+</instant>
+
+<instant group="attack" name="Toxic beam" words="toxic beam" lvl="400" magiclevel="130" mana="8000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Chilled/400.lua">
+<vocation name="Chilled"/>
+</instant>
+
+<!-- magias Kagome -->
+<instant group="attack" name="Dodon ray" words="dodon ray" lvl="100" magiclevel="60" mana="2800" aggressive="1" exhaustion="900" script="Kagome/100.lua">
+<vocation name="Kagome"/>
+</instant>
+
+<instant group="attack" name="Brave gatling" words="brave gatling" lvl="150" magiclevel="70" mana="2800" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Kagome/150.lua">
+<vocation name="Kagome"/>
+</instant>
+
+<instant group="attack" name="Dynamite kick" words="dynamite kick" lvl="200" magiclevel="100" mana="2900" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Kagome/200.lua">
+<vocation name="Kagome"/>
+</instant>
+
+<instant group="attack" name="Heat dome attack" words="heat dome attack" lvl="250" magiclevel="110" mana="3000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Kagome/250.lua">
+<vocation name="Kagome"/>
+</instant>
+
+<instant group="attack" name="Ohayo kamehameha" words="ohayo kamehameha" lvl="300" magiclevel="115" mana="8000" direction="1" blockwalls="1" agressive="1" exhaustion="200" script="Kagome/300.lua">
+<vocation name="Kagome"/>
+</instant>
+
+<instant spellid="29" group="special" name="Kinzoku no kawa" words="kinzoku no kawa" lvl="350" magiclevel="125" mana="0" blockwalls="1" description="Kagome recebe dano diretamente no seu (KI) e fica imune à TRAPS/LYZES/MUNDOS/MUTEDS durante 8 segundos. Você pode utilizar kinzoku no kawa kai para voltar a receber dano diretamente na sua vida. Cooldown de 45 segundos." script="Kagome/kinzoku no kawa.lua">
+<vocation name="Kagome"/>
+</instant>
+
+<instant spellid="29" group="special" name="Kinzoku no kawa kai" words="kinzoku no kawa kai" lvl="350" magiclevel="125" mana="0" blockwalls="1" description="Kagome ao utilizar o kinzoku no kawa kai remove o efeito do kinzoku no kawa. Sem cooldown para utilizar, basta ter o kinzoku no kawa ativo." script="Kagome/kinzoku no kawa kai.lua">
+<vocation name="Kagome"/>
+</instant>
+
+<instant group="attack" name="Dynamic punch" words="dynamic punch" lvl="400" magiclevel="130" mana="8000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Kagome/400.lua">
+<vocation name="Kagome"/>
+</instant>
+
+<!-- magias Zaiko -->
+<instant group="attack" name="Saiko nodo" words="saiko nodo" lvl="100" magiclevel="60" mana="2800" aggressive="1" exhaustion="900" script="Zaiko/100.lua">
+<vocation name="Zaiko"/>
+</instant>
+
+<instant group="attack" name="Saikosai jakai" words="saikosai jakai" lvl="150" magiclevel="70" mana="2800" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Zaiko/150.lua">
+<vocation name="Zaiko"/>
+</instant>
+
+<instant group="attack" name="Daburuboru" words="daburuboru" lvl="200" magiclevel="100" mana="2900" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Zaiko/200.lua">
+<vocation name="Zaiko"/>
+</instant>
+
+<instant group="attack" name="Saikosai boru" words="saikosai boru" lvl="250" magiclevel="110" mana="3000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Zaiko/250.lua">
+<vocation name="Zaiko"/>
+</instant>
+
+<instant group="attack" name="Saiko chou" words="saiko chou" lvl="300" magiclevel="115" mana="8000" direction="1" blockwalls="1" agressive="1" exhaustion="200" script="Zaiko/300.lua">
+<vocation name="Zaiko"/>
+</instant>
+
+<instant spellid="30" group="special" name="Enraged defense" words="enraged defense" lvl="350" magiclevel="125" mana="0" blockwalls="1" description="Zaiko fica invisível por 4 segundos (não podendo atacar ninguém e nem ser atacado) e quando retorna volta buffado com +15 de all skills por 6 segundos. Cooldown de 60 segundos." script="Zaiko/enraged defense.lua">
+<vocation name="Zaiko"/>
+</instant>
+
+<instant group="attack" name="Tengai saikosai" words="tengai saikosai" lvl="400" magiclevel="130" mana="8000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Zaiko/400.lua">
+<vocation name="Zaiko"/>
+</instant>
+
+<!-- magias King Vegeta -->
+<instant group="attack" name="Saiyan destruction" words="saiyan destruction" lvl="100" magiclevel="60" mana="2800" aggressive="1" exhaustion="900" script="King Vegeta/100.lua">
+<vocation name="King Vegeta"/>
+</instant>
+
+<instant group="attack" name="Saiyan throw" words="saiyan throw" lvl="150" magiclevel="70" mana="2800" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="King Vegeta/150.lua">
+<vocation name="King Vegeta"/>
+</instant>
+
+<instant group="attack" name="Saiyajin rage" words="saiyajin rage" lvl="200" magiclevel="100" mana="2900" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="King Vegeta/200.lua">
+<vocation name="King Vegeta"/>
+</instant>
+
+<instant group="attack" name="King blast" words="king blast" lvl="250" magiclevel="110" mana="3000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="King Vegeta/250.lua">
+<vocation name="King Vegeta"/>
+</instant>
+
+<instant group="attack" name="Execution beam" words="execution beam" lvl="300" magiclevel="115" mana="8000" direction="1" blockwalls="1" agressive="1" exhaustion="200" script="King Vegeta/300.lua">
+<vocation name="King Vegeta"/>
+</instant>
+
+<instant spellid="31" group="special" name="Full unlock ability skill" words="full unlock ability skill" lvl="350" magiclevel="125" mana="0" blockwalls="1" description="King Vegeta buffa os status de sí mesmo e sua PT por 10 segundos. Aumenta em +30 o ki level de ambos. Cooldown de 60 segundos." script="King Vegeta/full unlock ability skill.lua">
+<vocation name="King Vegeta"/>
+</instant>
+
+<instant group="attack" name="Galick gun" words="galick gun" lvl="400" magiclevel="130" mana="8000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="King Vegeta/400.lua">
+<vocation name="King Vegeta"/>
+</instant>
+
+<!-- magias Vegetto -->
+<instant group="attack" name="Fusion storm" words="fusion storm" lvl="100" magiclevel="60" mana="2800" aggressive="1" exhaustion="5000" script="Vegetto/100.lua">
+<vocation name="Vegetto"/>
+</instant>
+
+<instant group="attack" name="M1" words="m1" lvl="150" magiclevel="70" mana="2800" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Vegetto/150.lua">
+<vocation name="Vegetto"/>
+</instant>
+
+<instant group="attack" name="Super ki blast" words="super ki blast" lvl="200" magiclevel="100" mana="2900" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Vegetto/200.lua">
+<vocation name="Vegetto"/>
+</instant>
+
+<instant group="attack" name="Final ryuken rage" words="final ryuken rage" lvl="250" magiclevel="110" mana="3000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Vegetto/250.lua">
+<vocation name="Vegetto"/>
+</instant>
+
+<instant group="attack" name="Ultra mega flash" words="ultra mega flash" lvl="300" magiclevel="115" mana="8000" direction="1" blockwalls="1" agressive="1" exhaustion="200" script="Vegetto/300.lua">
+<vocation name="Vegetto"/>
+</instant>
+
+<instant spellid="32" group="special" name="Savage counter" words="savage counter" lvl="350" magiclevel="125" mana="0" blockwalls="1" description="Vegetto deixa toda a sua arma funcionando em forma de DISTANCE (6SQMS) por 10 segundos, visando que não existe distance no servidor e a arma causa um grande dano. Cooldown de 25 segundos." script="Vegetto/savage counter.lua">
+<vocation name="Vegetto"/>
+</instant>
+
+<instant group="attack" name="Guided scatter shot" words="guided scatter shot" lvl="400" magiclevel="130" mana="8000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Vegetto/400.lua">
+<vocation name="Vegetto"/>
+</instant>
+
+<!-- magias Kame -->
+<instant group="attack" name="Turtle devastation" words="turtle devastation" lvl="100" magiclevel="60" mana="2800" aggressive="1" exhaustion="900" script="Kame/100.lua">
+<vocation name="Kame"/>
+</instant>
+
+<instant group="attack" name="Rush attack" words="rush attack" lvl="150" magiclevel="70" mana="2800" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Kame/150.lua">
+<vocation name="Kame"/>
+</instant>
+
+<instant group="attack" name="Full spirit" words="full spirit" lvl="200" magiclevel="100" mana="2900" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Kame/200.lua">
+<vocation name="Kame"/>
+</instant>
+
+<instant group="attack" name="Rosh attack" words="rosh attack" lvl="250" magiclevel="110" mana="3000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Kame/250.lua">
+<vocation name="Kame"/>
+</instant>
+
+<instant spellid="33" group="special" name="Mafuba effect" words="mafuba effect" lvl="350" magiclevel="125" mana="0" blockwalls="1" description="Kame da um salto que quando cai até o chão, stunna todas as criaturas ao redor de 2x2 SQMS e atordoa-as por 3,5 segundos. Cooldown de 35 segundos." script="Kame/mafuba effect.lua">
+<vocation name="Kame"/>
+</instant>
+
+<instant group="attack" name="Zanzoken" words="zanzoken" lvl="400" magiclevel="130" mana="8000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Kame/400.lua">
+<vocation name="Kame"/>
+</instant>
+
+<!-- magias Shenron -->
+<instant group="attack" name="Fire storm" words="fire storm" lvl="100" magiclevel="60" mana="2800" aggressive="1" exhaustion="900" script="Shenron/100.lua">
+<vocation name="Shenron"/>
+</instant>
+
+<instant group="attack" name="Demon throw" words="demon throw" lvl="150" magiclevel="70" mana="2800" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Shenron/150.lua">
+<vocation name="Shenron"/>
+</instant>
+
+<instant group="attack" name="Demon meteor" words="demon meteor" lvl="200" magiclevel="100" mana="2900" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Shenron/200.lua">
+<vocation name="Shenron"/>
+</instant>
+
+<instant group="attack" name="Negative karma ball" words="negative karma ball" lvl="250" magiclevel="110" mana="3000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Shenron/250.lua">
+<vocation name="Shenron"/>
+</instant>
+
+<instant spellid="34" group="special" name="Omega extra life" words="omega extra life" lvl="350" magiclevel="125" mana="0" blockwalls="1" description="Ao ativar a técnica, caso Shenron seja derrotado durante os 10 segundos de duração, ele não morrerá imediatamente. Em vez disso, ficará caído no chão por 3 segundos, recuperando suas energias até renascer. Ao retornar, ele recupera 100% da vida e recebe +10 de all skills por 8 segundos. Cooldown de 60 segundos." script="Shenron/omega extra life.lua">
+<vocation name="Shenron"/>
+</instant>
+
+<instant group="attack" name="Destructive hell" words="destructive hell" lvl="400" magiclevel="130" mana="8000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Shenron/400.lua">
+<vocation name="Shenron"/>
+</instant>
+
+<!--  magias Kaioh  -->
+<instant group="attack" name="Celestic wave" words="celestic wave" lvl="100" magiclevel="60" mana="2800" aggressive="1" exhaustion="900" script="Kaioh/100.lua">
+<vocation name="Kaioh"/>
+</instant>
+
+<instant group="attack" name="Energy last" words="energy last" lvl="150" magiclevel="70" mana="2800" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Kaioh/150.lua">
+<vocation name="Kaioh"/>
+</instant>
+
+<instant group="attack" name="Shoge flash" words="shoge flash" lvl="200" magiclevel="100" mana="2900" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Kaioh/200.lua">
+<vocation name="Kaioh"/>
+</instant>
+
+<instant group="attack" name="Supreme blast" words="supreme blast" lvl="250" magiclevel="110" mana="3000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Kaioh/250.lua">
+<vocation name="Kaioh"/>
+</instant>
+
+<instant group="attack" name="Ultra shoge fissure" words="ultra shoge fissure" lvl="300" magiclevel="115" mana="8000" direction="1" blockwalls="1" agressive="1" exhaustion="200" script="Buu/300.lua">
+<vocation name="Kaioh"/>
+</instant>
+
+<instant spellid="37" group="special" name="Unlock ability regen" words="unlock ability regen" lvl="350" magiclevel="125" mana="0" blockwalls="1" agressive="1" description="Kaioh regenera todos da sua PT (que estiverem em sua tela) durante 10 segundos consecutivos, curando-os rapidamente. Caso tenha mais de um kaioh na party, o tempo se stacka. Cooldown de 50 segundos." script="Kaioh/unlock ability regen.lua">
+<vocation name="Kaioh"/>
+</instant>
+
+<instant group="attack" name="Shin fissure" words="shin fissure" lvl="400" magiclevel="130" mana="8000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Kaioh/400.lua">
+<vocation name="Kaioh"/>
+</instant>
+
+<!--  magias Goku Black  -->
+<instant group="attack" name="Shockwave" words="shockwave" lvl="100" magiclevel="60" mana="2800" aggressive="1" exhaustion="900" script="Goku Black/100.lua">
+<vocation name="Goku Black"/>
+</instant>
+
+<instant group="attack" name="Continuous energy bullet" words="continuous energy bullet" lvl="150" magiclevel="70" mana="2800" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Goku Black/150.lua">
+<vocation name="Goku Black"/>
+</instant>
+
+<instant group="attack" name="Holy light grenade" words="holy light grenade" lvl="200" magiclevel="100" mana="2900" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Goku Black/200.lua">
+<vocation name="Goku Black"/>
+</instant>
+
+<instant group="attack" name="God slicer" words="god slicer" lvl="250" magiclevel="110" mana="3000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Goku Black/250.lua">
+<vocation name="Goku Black"/>
+</instant>
+
+<instant group="attack" name="Ultra pink flash" words="ultra pink flash" lvl="300" magiclevel="115" mana="8000" direction="1" blockwalls="1" agressive="1" exhaustion="200" script="Goku Black/300.lua">
+<vocation name="Goku Black"/>
+</instant>
+
+<instant spellid="38" group="special" name="Create spirit blade" words="create spirit blade" lvl="500" magiclevel="135" mana="0" agressive="0" description="Goku Black cria uma spirit blade tendo o dano superior à arma vip e tendo chance de trap a cada 8 hits (CONSECUTIVOS) de 1,5s, a mesma só pode ser equipada pelo Goku Black e utilizada por ele mesmo." script="Goku Black/create spirit blade.lua">
+<vocation name="Goku Black"/>
+</instant>
+
+<instant spellid="39" group="special" name="Kiai" words="kiai" lvl="350" direction="1" magiclevel="125" blockwalls="1" agressive="1" description="Goku Black dispara uma area 2x2 que empurra o alvo, tanto em diagonal, quanto reto (até 4sqms). Em caso do alvo bater em algum obstáculo, ele toma um stun de 3s. Cooldown de 8 segundos." script="Goku Black/kiai.lua">
+<vocation name="Goku Black"/>
+</instant>
+
+<instant group="attack" name="Sickle of sorrow" words="sickle of sorrow" lvl="400" magiclevel="130" mana="8000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Goku Black/400.lua">
+<vocation name="Goku Black"/>
+</instant>
+
+<!--  magias Zamasu  -->
+<instant group="attack" name="Exploding wave" words="exploding wave" lvl="100" magiclevel="60" mana="2800" aggressive="1" exhaustion="900" script="Zamasu/100.lua">
+<vocation name="Zamasu"/>
+</instant>
+
+<instant group="attack" name="God split cut" words="god split cut" lvl="150" magiclevel="70" mana="2800" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Zamasu/150.lua">
+<vocation name="Zamasu"/>
+</instant>
+
+<instant group="attack" name="Planet bomb" words="planet bomb" lvl="200" magiclevel="100" mana="2900" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Zamasu/200.lua">
+<vocation name="Zamasu"/>
+</instant>
+
+<instant group="attack" name="Heavenly arrow" words="heavenly arrow" lvl="250" magiclevel="110" mana="3000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Zamasu/250.lua">
+<vocation name="Zamasu"/>
+</instant>
+
+<instant group="attack" name="Divine wrath" words="divine wrath" lvl="300" magiclevel="115" mana="8000" direction="1" blockwalls="1" agressive="1" exhaustion="200" script="Zamasu/300.lua">
+<vocation name="Zamasu"/>
+</instant>
+
+<instant spellid="40" group="special" name="Divine god slicer" words="divine god slicer" lvl="350" magiclevel="125" agressive="1" description="Zamasu ativa sua magia divina durante 5 segundos, durante esses 5 segundos, QUALQUER membro de sua PT (incluindo sí mesmo) que estiverem na tela de zamasu ao MORREREM, revivem com 50% de vida, escapando da morte (você retorna com 0,5s de invisível para impedir que morra instantaneamente). Cooldown de 75 segundos. Obs: Se você reviveu 1x, tem um cooldown global entre zamasus, você não conseguirá ser revivido por outro durante 75 segundos, mesmo que seja um totalmente diferente." script="Zamasu/divine god slicer.lua">
+<vocation name="Zamasu"/>
+</instant>
+
+<instant group="attack" name="Energy blade" words="energy blade" lvl="400" magiclevel="130" mana="8000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Zamasu/400.lua">
+<vocation name="Zamasu"/>
+</instant>
+
+<!--  magias Jiren  -->
+<instant group="attack" name="Shock tornado" words="shock tornado" lvl="100" magiclevel="60" mana="2800" aggressive="1" exhaustion="900" script="Jiren/100.lua">
+<vocation name="Jiren"/>
+</instant>
+
+<instant group="attack" name="Overheat magnetron" words="overheat magnetron" lvl="150" magiclevel="70" mana="2800" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Jiren/150.lua">
+<vocation name="Jiren"/>
+</instant>
+
+<instant group="attack" name="Colossal flash" words="colossal flash" lvl="200" magiclevel="100" mana="2900" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Jiren/200.lua">
+<vocation name="Jiren"/>
+</instant>
+
+<instant group="attack" name="Overheating blast" words="overheating blast" lvl="250" magiclevel="110" mana="3000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Jiren/250.lua">
+<vocation name="Jiren"/>
+</instant>
+
+<instant group="attack" name="Omega heat cannon" words="omega heat cannon" lvl="300" magiclevel="115" mana="8000" direction="1" blockwalls="1" agressive="1" exhaustion="200" script="Tapion/300.lua">
+<vocation name="Jiren"/>
+</instant>
+
+<instant spellid="41" group="special" name="Power impact reverse" words="power impact reverse" lvl="350" magiclevel="125" needtarget="1" range="7" blockwalls="1" agressive="1" description="Jiren pula acima do seu alvo (7SQMS de distância) e stompa-o, stunnando por 3,5s (saltando seu alvo para cima), essa tecnica funciona em monstros, porém, não stunna-os, o cooldown é de 35s." script="Jiren/power impact reverse.lua">
+<vocation name="Jiren"/>
+</instant>
+
+<instant group="attack" name="Colossal uppercut" words="colossal uppercut" lvl="400" magiclevel="130" mana="8000" needtarget="1" range="6" blockwalls="1" exhaustion="200" script="Jiren/400.lua">
+<vocation name="Jiren"/>
+</instant>
+
+<!-- House Spells -->
+<instant name="House Guest List" words="aleta sio" aggressive="0" script="house/edit_guest_list.lua" />
+<instant name="House Kick" words="alana sio" aggressive="0" playernameparam="1" params="1" script="house/kick.lua" />
+<instant name="House Subowner List" words="aleta som" aggressive="0" script="house/edit_subowner_list.lua" />
+
+<!-- CANUDOS -->
+<instant group="attack" name="Canudo" words="canudo" lvl="1" magiclevel="0" mana="0" direction="1" blockwalls="1" agressive="1" script="Canudos/Canudo.lua">
+<vocation name="Goku"/>
+</instant>
+
+<!-- dash target direction -->
+<instant group="attack" name="Pulo" words="pulo" lvl="1" magiclevel="0" mana="0" direction="1" blockwalls="1" agressive="1" script="Canudos/pulo.lua">
+<vocation name="Janemba"/>
+<vocation name="Goku"/>
+</instant>
+
+<!-- pulo -->
+<instant group="attack" name="Impact" words="impact" lvl="1" magiclevel="0" mana="0" direction="1" blockwalls="1" agressive="1" script="Canudos/dash impact.lua">
+<vocation name="Goku"/>
+</instant>
+
+<!-- FAST -->
+<instant group="attack" name="Fast" words="fast" lvl="0" magiclevel="0" mana="2800" needtarget="1" range="6" blockwalls="1" script="Canudos/Fast.lua">
+<vocation name="Goku"/>
+</instant>
+
+<instant group="attack" name="Tiro" words="tiro" lvl="0" magiclevel="0" mana="2800" needtarget="1" range="6" blockwalls="1" script="Canudos/Tiro.lua">
+<vocation name="Goku"/>
+</instant>
+
+<instant group="attack" name="Tiroo" words="tiroo" lvl="0" magiclevel="0" mana="2800" needtarget="0" blockwalls="1" script="Canudos/Tiroo.lua">
+<vocation name="Goku"/>
+</instant>
+
+<!-- monster spells -->
+<instant name="bomb" words="###1" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/bomb.lua" />
+<instant name="daichiretsuzan" words="###2" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/daichiretsuzan.lua" />
+<instant name="furie" words="###3" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="Monster/furie.lua" />
+<instant name="Mega Bomb" words="###4" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/Mega Bomb.lua" />
+<instant name="daiburuboru" words="###5" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/daiburuboru.lua" />
+<instant name="small genki dama" words="###6" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/small genki dama.lua" />
+<instant name="deadly razor" words="###7" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/deadly razor.lua" />
+<instant name="auto destruction" words="###8" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="Monster/auto destruction.lua" />
+<instant name="death ball" words="###9" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/death ball.lua" />
+<instant name="soudou yari" words="###10" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/soudou yari.lua" />
+<instant name="crusher ball" words="###11" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/crusher ball.lua" />
+<instant name="meteor" words="###12" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/meteor.lua" />
+<instant name="renzoku kikouha" words="###13" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/renzoku kikouha.lua" />
+<instant name="fusion storm" words="###14" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" exhaustion="5000" lvl="100" magiclevel="60" mana="2800" script="Monster/fusion storm.lua" />
+<instant name="genki renzoku" words="###15" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/genki renzoku.lua" />
+<instant name="super explosion wave" words="###16" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="Monster/super explosion wave.lua" />
+<instant name="chou makosen" words="###17" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/chou makosen.lua" />
+<instant name="jinruizetsu" words="###18" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/jinruizetsu.lua" />
+<instant name="barakuitsu blast" words="###19" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/barakuitsu blast.lua" />
+<instant name="barakuitsu rio" words="###20" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="Monster/barakuitsu rio.lua" />
+<instant name="eraser blow" words="###21" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/eraser blow.lua" />
+<instant name="mega barrier" words="###22" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="Monster/mega barrier.lua" />
+<instant name="double ball" words="###23" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/double ball.lua" />
+<instant name="self destruction" words="###24" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/self destruction.lua" />
+<instant name="hell granade" words="###25" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/hell granade.lua" />
+<instant name="brave cannon" words="###26" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/brave cannon.lua" />
+<instant name="shockwave" words="###27" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="Monster/shockwave.lua" />
+<instant name="Final Shine" words="###28" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/Final Shine.lua" />
+<instant name="brave sword attack" words="###29" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/brave sword attack.lua" />
+<instant name="Great Saiyaman Attack" words="###30" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/Great Saiyaman Attack.lua" />
+<instant name="divine missile" words="###31" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/divine missile.lua" />
+<instant name="nova blast" words="###32" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/nova blast.lua" />
+<instant name="eye laser" words="###33" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="Monster/eye laser.lua" />
+<instant name="psycho barrier" words="###34" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="Monster/psycho barrier.lua" />
+<instant name="nova" words="###35" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/nova.lua" />
+<instant name="mystic flash" words="###36" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="Monster/mystic flash.lua" />
+<instant name="sword bash" words="###37" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/sword bash.lua" />
+<instant name="full power energy wave" words="###38" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="Monster/full power energy wave.lua" />
+<instant name="negative karma ball" words="###39" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/negative karma ball.lua" />
+<instant name="combo impact" words="###40" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/combo impact.lua" />
+<instant name="mega shunkanido" words="###41" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/mega shunkanido.lua" />
+<instant name="dark furie" words="###42" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="Monster/dark furie.lua" />
+<instant name="sword throw" words="###43" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/sword throw.lua" />
+<instant name="demon bash" words="###44" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/demon bash.lua" />
+<instant name="ultimate shine" words="###45" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/ultimate shine.lua" />
+<instant name="Super ki blast" words="###46" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/Super ki blast.lua" />
+<instant name="Guided Scatter Shot" words="###47" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/Guided Scatter Shot.lua" />
+<instant name="saiyajin blast" words="###48" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/saiyajin blast.lua" />
+<instant name="demon rage" words="###49" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/demon rage.lua" />
+<instant name="super hell granade" words="###50" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/super hell granade.lua" />
+<instant name="explosion" words="###51" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="Monster/explosion.lua" />
+<instant name="saiko nodo" words="###52" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="Monster/saiko nodo.lua" />
+<instant name="kaukusudan" words="###53" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/kaukusudan.lua" />
+<instant name="sword furie" words="###54" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="Monster/sword furie.lua" />
+<instant name="super kamehameha" words="###55" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="Monster/super kamehameha.lua" />
+<instant name="super ryuken" words="###56" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="Monster/super ryuken.lua" />
+<instant name="big bang attack" words="###57" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/big bang attack.lua" />
+<instant name="demon furie" words="###58" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="Monster/demon furie.lua" />
+<instant name="demon blast" words="###59" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/demon blast.lua" />
+<instant name="chobakuretsumaha" words="###60" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/chobakuretsumaha.lua" />
+<instant name="hellzone granade" words="###61" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/hellzone granade.lua" />
+<instant name="namekjin wave" words="###62" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/namekjin wave.lua" />
+<instant name="namekjin rage" words="###63" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="Monster/namekjin rage.lua" />
+<instant name="gyarikku hou" words="###64" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/gyarikku hou.lua" />
+<instant name="chybie blast" words="###65" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/chybie blast.lua" />
+<instant name="super saiyaman furie" words="###66" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="Monster/super saiyaman furie.lua" />
+<instant name="evil kienzan" words="###67" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/evil kienzan.lua" />
+<instant name="nokona panchi" words="###68" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/nokona panchi.lua" />
+<instant name="kamikaze explosion" words="###69" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/kamikaze explosion.lua" />
+<instant name="disperse kamikaze" words="###70" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="Monster/disperse kamikaze.lua" />
+<instant name="massive explosion" words="###71" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="Monster/massive explosion.lua" />
+<instant name="demon ball" words="###72" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/demon ball.lua" />
+<instant name="shoge chiha" words="###73" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/shoge chiha.lua" />
+<instant name="meteor bash" words="###74" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/meteor bash.lua" />
+<instant name="super kienzan blast" words="###75" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/super kienzan blast.lua" />
+<instant name="fire storm" words="###76" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="Monster/fire storm.lua" />
+<instant name="omega cannon" words="###77" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/omega cannon.lua" />
+<instant name="hell cannon" words="###78" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="Monster/hell cannon.lua" />
+<instant name="final ryuken rage" words="###79" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/final ryuken rage.lua" />
+<instant name="god power" words="###80" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="Monster/god power.lua" />
+<instant name="vanishing rage" words="###81" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="Monster/vanishing rage.lua" />
+<instant name="makosen" words="###82" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/makosen.lua" />
+<instant name="mafuba" words="###83" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/mafuba.lua" />
+<instant name="dynamic punch" words="###84" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/dynamic punch.lua" />
+<instant name="artillery destruction" words="###85" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="Monster/artillery destruction.lua" />
+<instant name="galactic donut" words="###86" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/galactic donut.lua" />
+<instant name="bakuhatsuha" words="###87" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="Monster/bakuhatsuha.lua" />
+<instant name="energy shyotu" words="###88" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/energy shyotu.lua" />
+<instant name="supreme blast" words="###89" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/supreme blast.lua" />
+<instant name="barakuitsu furie" words="###90" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="Monster/barakuitsu furie.lua" />
+<instant name="pink ball" words="###91" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/pink ball.lua" />
+<instant name="deadly bomb" words="###92" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/deadly bomb.lua" />
+<instant name="massive sword attack" words="###93" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/massive sword attack.lua" />
+<instant name="burning attack" words="###94" aggressive="1" blockwalls="1" needtarget="1" range="6" needlearn="1" script="Monster/burning attack.lua" />
+<instant name="big bang kamehameha" words="###95" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="Monster/big bang kamehameha.lua" />
+<instant name="ground warning" words="###97" aggressive="1" blockwalls="0" needtarget="0" needlearn="1" script="Monster/ground_warning.lua" />
+<instant name="lightning beam" words="###98" aggressive="1" blockwalls="0" needtarget="0" needlearn="1" script="Monster/lightning_beam.lua" />
+</spells>

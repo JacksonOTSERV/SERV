@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Bulma" script="bulma.lua" walkinterval="1000">
+	<health now="100" max="100"/>
+	<look type="295"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Olá, |PLAYERNAME|! Com a ajuda de Shenlong você poderá se tornar mais poderoso, mas para a invocação é preciso me {entregar} as Esferas Do Dragão."/>
+	</parameters>
+</npc>

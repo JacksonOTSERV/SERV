@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Shenron" script="shenlongtrade.lua" walkinterval="0">
+	<health now="100" max="100" />
+	<look type="307"/>
+	<parameters>
+	<parameter key="message_greet" value="Olá, |PLAYERNAME|! Eu negocio alguns itens em troca de Shenlong scale! Diga {Trade}."/>
+	</parameters>
+</npc>

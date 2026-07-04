@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Uu Shenlong" nameDescription="an Uu Shenlong" race="blood" experience="50000" speed="1000" manacost="0">
+  <health now="1120000" max="1120000" />
+  <look type="481" head="1" body="1" legs="1" feet="1" addons="0" corpse="13369" />
+  <targetchange interval="5000" chance="8" />
+  <strategy attack="100" defense="0" />
+  <flags>
+    <flag summonable="0" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="0" />
+    <flag convinceable="0" />
+    <flag pushable="1" />
+    <flag canpushitems="1" />
+    <flag canpushcreatures="1" />
+    <flag targetdistance="1" />
+    <flag staticattack="90" />
+    <flag runonhealth="0" />
+  </flags>
+  <attacks>
+    <attack name="melee" interval="500" min="-7500" max="-10500" />
+    <attack name="brave cannon" interval="1500" chance="35" min="-9000" max="-14000" />
+    <attack name="super explosion wave" interval="2000" chance="75" min="-12000" max="-18000" />
+    <attack name="negative karma ball" interval="1000" chance="15" min="-3200" max="-4200" />
+    <attack name="demon bash" interval="750" chance="25" min="-0" max="-18000" />
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <immunities>
+    <immunity physical="0" />
+    <immunity energy="0" />
+    <immunity fire="0" />
+    <immunity poison="0" />
+    <immunity lifedrain="0" />
+    <immunity paralyze="0" />
+    <immunity outfit="1" />
+    <immunity invisible="0" />
+  </immunities>
+  <loot>
+    <item id="2160" countmax="3" chance="4000" />
+    <!-- Golds -->
+  </loot>
+</monster>

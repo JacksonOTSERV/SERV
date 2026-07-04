@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Points Seller" script="points.lua" walkinterval="1000">
+	<health now="100" max="100"/>
+	<look type="1259"/>
+	<parameters>
+		<parameter key="message_greet" value="Ola, eu posso gerar um papel de transferencia para premium points do valor {5 a 110}, qual valor voce deseja?"/>
+	</parameters>
+</npc>

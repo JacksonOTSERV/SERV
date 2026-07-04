@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<creaturescripts>
+	<!-- Others -->
+	<event type="login" name="PlayerLogin" script="others/login.lua" />
+	<event type="logout" name="PlayerLogout" script="others/logout.lua" />
+	<event type="death" name="PlayerDeath" script="others/playerdeath.lua" />
+	<event type="death" name="DropLoot" script="others/droploot.lua" />
+	<event type="think" name="SkullCheck" script="others/skullcheck.lua" />
+	<event type="preparedeath" name="ArenaPvp" script="others/playerdeath.lua"/>
+	
+	<!-- Custom -->
+	<event type="login" name="LoginBoost" script="custom/boosts.lua" />
+	<event type="advance" name="Outfits" script="custom/outfits.lua" />
+	<event type="login" name="OutfitsLogin" script="custom/outfits.lua" />
+	<event type="think" name="SummonThink" script="custom/summon_think.lua" />
+	<event type="kill" name="AreaMonsterTeleport" script="custom/area_monster_teleport.lua"/>
+	<event type="kill" name="TaskKill" script="custom/task_kills.lua"/>
+	<event type="kill" name="Monster_hunt" script="custom/monster_hunt.lua"/>
+	<event type="healthchange" name="AntiIk" script="custom/antiIk.lua"/>
+	<event type="preparedeath" name="Kyushu" script="custom/kyushu.lua"/>
+	<event type="login" name="PresencePointsLogin" script="custom/presence_points.lua" />
+	<event type="logout" name="PresencePointsLogout" script="custom/presence_points.lua" />
+	<event type="death" name="ShenlongDeath" script="custom/death_shenlong.lua" />
+	<event type="login" name="DesbugLife" script="custom/desbug_life.lua"/>
+	<event type="extendedopcode" name="GetUUID" script="custom/getUUID.lua" />
+	<event type="extendedopcode" name="Dungeon" script="custom/dungeon_system.lua" />
+	<event type="extendedopcode" name="DungeonTimer" script="custom/timer_dungeon.lua" />
+	<event type="extendedopcode" name="BoostSystem" script="custom/boost_system.lua"/>
+	<event type="extendedopcode" name="AutolootOpcode" script="others/autoloot_opcode.lua"/>
+	<event type="extendedopcode" name="LootBoxOpcode" script="others/lootbox_opcode.lua"/>
+	<event type="extendedopcode" name="HeroesOpcode" script="others/heroes_opcode.lua"/>
+	<event type="death" name="OutfitsDeath" script="custom/outfits.lua"/>
+	<event type="healthchange" name="HeroCombat" script="custom/hero_combat.lua"/>
+	<event type="extendedopcode" name="ExtendedPing" script="custom/extended_ping.lua"/>
+	<event type="extendedopcode" name="PlayerTrailsOpcode" script="custom/player_trails.lua"/>
+	<event type="login" name="PlayerTrailsLogin" script="custom/player_trails.lua"/>
+	<event type="extendedopcode" name="SpellbarOpcode" script="others/spellbar_opcode.lua"/>
+	<event type="extendedopcode" name="EmoteOpcode" script="others/emote_opcode.lua"/>
+	<event type="extendedopcode" name="MenuOpcode" script="others/menu_opcode.lua"/>
+	<event type="login" name="MenuLogin" script="others/menu_opcode.lua"/>
+	<event type="extendedopcode" name="PowerUpOpcode" script="custom/powerup.lua"/>
+	<event type="login" name="PowerUpPassiveLogin" script="custom/powerup_passive.lua"/>
+	<event type="advance" name="PowerUpPassiveAdvance" script="custom/powerup_passive.lua"/>
+	<event type="healthchange" name="PowerUpCombat" script="custom/powerup_combat.lua"/>
+	<event type="extendedopcode" name="BankOpcode" script="others/bank_opcode.lua"/>
+	<event type="extendedopcode" name="DonationGoalsOpcode" script="others/donationgoals_opcode.lua"/>
+	<event type="extendedopcode" name="CraftOpcode" script="others/craft_opcode.lua"/>
+	<event type="extendedopcode" name="GameTasksOpcode" script="others/tasks_opcode.lua"/>
+	<event type="kill" name="GameTasksKill" script="others/tasks_opcode.lua"/>
+	<event type="extendedopcode" name="GameShopOpcode" script="others/gameshop_opcode.lua"/>
+	<event type="login" name="GameShopLogin" script="others/gameshop_opcode.lua"/>
+<event type="login" name="GameTasksLogin" script="others/tasks_opcode.lua"/>
+
+
+    <!-- Guild Buffs -->
+    <event type="login" name="GuildBuffsLogin" script="guild_login.lua"/>
+    <event type="healthchange" name="GuildBuffsHealth" script="guild_health.lua"/>
+    <event type="kill" name="GuildBuffsKill" script="guild_kill.lua"/>
+	
+</creaturescripts>

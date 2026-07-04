@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Furie Cell" nameDescription="an Furie Cell" race="blood" experience="35000" speed="850" manacost="0">
+  <health now="980000" max="980000" />
+  <look type="86" head="1" body="1" legs="1" feet="1" addons="0" corpse="12813" />
+  <targetchange interval="5000" chance="8" />
+  <strategy attack="100" defense="0" />
+  <flags>
+    <flag summonable="0" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="0" />
+    <flag convinceable="0" />
+    <flag pushable="1" />
+    <flag canpushitems="1" />
+    <flag canpushcreatures="1" />
+    <flag targetdistance="1" />
+    <flag staticattack="90" />
+    <flag runonhealth="0" />
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" min="-9500" max="-12000" />
+    <attack name="hell granade" interval="3000" chance="40" min="-3000" max="-4200" />
+    <attack name="mega bomb" interval="2000" chance="35" min="-16000" max="-19000" />
+    <attack name="auto destruction" interval="1000" chance="15" min="-14000" max="-16000" />
+    <attack name="super kamehameha" interval="6000" chance="50" min="-18000" max="-22000" />
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <immunities>
+    <immunity physical="0" />
+    <immunity energy="0" />
+    <immunity fire="0" />
+    <immunity poison="0" />
+    <immunity lifedrain="0" />
+    <immunity paralyze="1" />
+    <immunity outfit="1" />
+    <immunity invisible="1" />
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Este planeta esta condenado!" />
+    <voice sentence="Lute com todas suas forcas!" />
+    <voice sentence="Nao me derrotara facilmente!" />
+  </voices>
+  <loot>
+    <item id="12661" chance="4000" />
+    <!-- Cell Coat -->
+  </loot>
+</monster>

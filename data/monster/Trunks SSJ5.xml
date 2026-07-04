@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Trunks SSJ5" nameDescription="an Trunks SSJ5" race="blood" experience="60000" speed="800" manacost="0">
+  <health now="840000" max="840000" />
+  <look type="79" head="1" body="1" legs="1" feet="1" addons="0" corpse="16330" />
+  <targetchange interval="5000" chance="8" />
+  <strategy attack="100" defense="0" />
+  <flags>
+    <flag summonable="0" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="0" />
+    <flag convinceable="0" />
+    <flag pushable="1" />
+    <flag canpushitems="1" />
+    <flag canpushcreatures="1" />
+    <flag targetdistance="1" />
+    <flag staticattack="90" />
+    <flag runonhealth="0" />
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" min="-10000" max="-20000" />
+    <attack name="massive sword attack" interval="1000" chance="25" min="-20000" max="-22000" />
+    <attack name="sword furie" interval="3000" chance="25" min="-20000" max="-25000" />
+    <attack name="saiyajin blast" interval="2500" chance="25" min="-2500" max="-3000" />
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <immunities>
+    <immunity physical="0" />
+    <immunity energy="0" />
+    <immunity fire="0" />
+    <immunity poison="0" />
+    <immunity lifedrain="0" />
+    <immunity paralyze="1" />
+    <immunity outfit="1" />
+    <immunity invisible="1" />
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Morra maldito!" />
+  </voices>
+  <loot>
+    <item id="12637" chance="4000" />
+    <!-- Future Trunks Armor -->
+    <item id="12687" chance="4000" />
+    <!-- Future Trunks Boots -->
+    <item id="12730" chance="4000" />
+    <!-- Saiyan Sword -->
+  </loot>
+</monster>

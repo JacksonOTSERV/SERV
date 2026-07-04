@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="King Kai" script="taskmaster.lua" walkinterval="2000" speed="0" floorchange="0">
+	<health now="100" max="100" />
+	<look type="1260"/>
+	<parameters>
+		<parameter key="message_greet" value="Olá |PLAYERNAME|. Você deseja adquirir uma {task}, {task daily}, {reportar} uma task ou fazer {trade} dos seus task coins?"/>
+	</parameters>
+</npc>

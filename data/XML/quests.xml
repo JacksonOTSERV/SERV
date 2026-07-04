@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quests>
+
+<quest name="Default" startstorageid="89792" startstoragevalue="1">
+</quest>
+
+<quest name="GoldYellow" startstorageid="1314" startstoragevalue="1">
+</quest>
+
+<quest name="OliveGreen" startstorageid="1316" startstoragevalue="1">
+</quest>
+
+<quest name="CobaltBlue" startstorageid="1317" startstoragevalue="1">
+</quest>
+
+<quest name="BloodRed" startstorageid="1318" startstoragevalue="1">
+</quest>
+</quests>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Boo" nameDescription="an Boo" race="blood" experience="10000" speed="400" manacost="0">
+  <health now="15000" max="15000" />
+  <look type="100" head="1" body="1" legs="1" feet="1" addons="0" corpse="12803" />
+  <targetchange interval="5000" chance="8" />
+  <strategy attack="100" defense="0" />
+  <flags>
+    <flag summonable="0" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="0" />
+    <flag convinceable="0" />
+    <flag pushable="1" />
+    <flag canpushitems="1" />
+    <flag canpushcreatures="1" />
+    <flag targetdistance="1" />
+    <flag staticattack="90" />
+    <flag runonhealth="0" />
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" min="-6000" max="-7000" />
+    <attack name="jinruizetsu" interval="1000" chance="75" min="-5000" max="-7500" />
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <immunities>
+    <immunity physical="0" />
+    <immunity energy="0" />
+    <immunity fire="0" />
+    <immunity poison="0" />
+    <immunity lifedrain="0" />
+    <immunity paralyze="0" />
+    <immunity outfit="1" />
+    <immunity invisible="1" />
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Que fomeee!" />
+    <voice sentence="Vou te transformar em doce!" />
+    <voice sentence="MORRA!" />
+    <voice sentence="Vou fazer voce sofrer!" />
+  </voices>
+  <loot>
+    <item id="12674" chance="1200" />
+    <!-- Boo Legs -->
+    <item id="12701" chance="1200" />
+    <!-- White Glove -->
+    <item id="12730" chance="1200" />
+    <!-- Saiyan Sword -->
+  </loot>
+</monster>

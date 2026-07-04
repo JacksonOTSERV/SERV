@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Porunga" nameDescription="an Porunga" race="blood" experience="0" speed="200" manacost="0">
+	<health now="5000000" max="5000000"/>
+	<look type="467" head="1" body="1" legs="1" feet="1" addons="0" corpse="12788"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+	  <attack name="melee" interval="1000" min="-13800" max="-17250" />
+	  <attack name="explosion" interval="1000" chance="10" min="-17250" max="-24150" />
+	  <attack name="super explosion wave" interval="1000" chance="10" min="-17250" max="-24150" />
+	  <attack name="sword furie" interval="1000" chance="10" min="-17250" max="-24150" />
+	  <attack name="fire storm" interval="1000" chance="10" min="-17250" max="-24150" />
+	  <attack name="fusion storm" interval="1000" chance="10" min="-17250" max="-24150" />
+	  <attack name="barakuitsu furie" interval="1000" chance="10" min="-17250" max="-24150" />
+	  <attack name="shockwave" interval="1000" chance="10" min="-17250" max="-24150" />
+	  <attack name="explosion" interval="1000" chance="10" min="-17250" max="-24150" />
+	  <attack name="dark furie" interval="1000" chance="10" min="-17250" max="-24150" />
+	  <attack name="full power energy wave" interval="1000" chance="10" min="-17250" max="-24150" />
+	  <attack name="dark furie" interval="1000" chance="10" min="-17250" max="-24150" />
+	  <attack name="auto destruction" interval="1000" chance="10" min="-17250" max="-24150" />
+	</attacks>
+	<defenses armor="0" defense="0">
+	</defenses>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="0"/>
+		<immunity outfit="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+  <script>
+    <event name="AreaMonsterTeleport" />
+  </script>
+</monster>

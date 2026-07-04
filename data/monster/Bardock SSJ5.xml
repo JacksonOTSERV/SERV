@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Bardock SSJ5" nameDescription="an Bardock SSJ5" race="blood" experience="60000" speed="800" manacost="0">
+  <health now="840000" max="840000" />
+  <look type="198" head="1" body="1" legs="1" feet="1" addons="0" corpse="16330" />
+  <targetchange interval="5000" chance="8" />
+  <strategy attack="100" defense="0" />
+  <flags>
+    <flag summonable="0" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="0" />
+    <flag convinceable="0" />
+    <flag pushable="1" />
+    <flag canpushitems="1" />
+    <flag canpushcreatures="1" />
+    <flag targetdistance="1" />
+    <flag staticattack="90" />
+    <flag runonhealth="0" />
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" min="-12000" max="-18000" />
+    <attack name="soudou yari" interval="3000" chance="25" min="-2300" max="-2600" />
+    <attack name="furie" interval="1000" chance="25" min="-22000" max="-26000" />
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <immunities>
+    <immunity physical="0" />
+    <immunity energy="0" />
+    <immunity fire="0" />
+    <immunity poison="0" />
+    <immunity lifedrain="0" />
+    <immunity paralyze="1" />
+    <immunity outfit="1" />
+    <immunity invisible="1" />
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Aaaaarghh!" />
+    <voice sentence="Me deixou furioso!!!" />
+  </voices>
+  <loot>
+    <item id="13392" chance="4000" />
+    <!-- Bardock Bandana -->
+    <item id="12636" chance="4000" />
+    <!-- Bardock Armor -->
+    <item id="12670" chance="4000" />
+    <!-- Bardock Legs -->
+    <item id="12688" chance="4000" />
+    <!-- Bardock Boots -->
+    <item id="12704" chance="4000" />
+    <!-- Bardock Glove -->
+  </loot>
+</monster>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Reborn" script="reborn.lua" walkinterval="0">
+	<health now="100" max="100"/>
+	<look type="446"/>
+	<parameters>
+		<parameter key="message_greet" value="Olá, |PLAYERNAME|! Eu posso te {Rebornar}." />
+	</parameters>
+</npc>

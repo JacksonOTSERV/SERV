@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Talon Seller" script="default.lua" walkinterval="2000">
+	<health now="100" max="100"/>
+	<look type="453"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Olá, |PLAYERNAME|! Eu compro alguns Talons. Diga {Trade}."/>
+		<parameter key="shop_sellable" value="Talon,12765,10000"/>
+	</parameters>
+</npc>

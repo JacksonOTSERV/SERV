@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<spawns>
+	<spawn centerx="3467" centery="3374" centerz="5" radius="1" />
+	<spawn centerx="3367" centery="3448" centerz="5" radius="1" />
+	<spawn centerx="3371" centery="3448" centerz="5" radius="1" />
+	<spawn centerx="3375" centery="3448" centerz="5" radius="1" />
+	<spawn centerx="3367" centery="3452" centerz="5" radius="1" />
+	<spawn centerx="3371" centery="3452" centerz="5" radius="1" />
+	<spawn centerx="3375" centery="3452" centerz="5" radius="1" />
+	<spawn centerx="3367" centery="3456" centerz="5" radius="1" />
+	<spawn centerx="3371" centery="3456" centerz="5" radius="1" />
+	<spawn centerx="3375" centery="3456" centerz="5" radius="1" />
+	<spawn centerx="3367" centery="3462" centerz="5" radius="1" />
+	<spawn centerx="3371" centery="3462" centerz="5" radius="1" />
+	<spawn centerx="3375" centery="3462" centerz="5" radius="1" />
+	<spawn centerx="3367" centery="3466" centerz="5" radius="1" />
+	<spawn centerx="3371" centery="3466" centerz="5" radius="1" />
+	<spawn centerx="3375" centery="3466" centerz="5" radius="1" />
+	<spawn centerx="3367" centery="3470" centerz="5" radius="1" />
+	<spawn centerx="3371" centery="3470" centerz="5" radius="1" />
+	<spawn centerx="3366" centery="3477" centerz="6" radius="1" />
+	<spawn centerx="3370" centery="3477" centerz="6" radius="1" />
+	<spawn centerx="3366" centery="3481" centerz="6" radius="1" />
+	<spawn centerx="3370" centery="3481" centerz="6" radius="1" />
+	<spawn centerx="3366" centery="3485" centerz="6" radius="1" />
+	<spawn centerx="3370" centery="3485" centerz="6" radius="1" />
+	<spawn centerx="3366" centery="3490" centerz="6" radius="1" />
+	<spawn centerx="3370" centery="3490" centerz="6" radius="1" />
+	<spawn centerx="3366" centery="3494" centerz="6" radius="1" />
+	<spawn centerx="3370" centery="3494" centerz="6" radius="1" />
+</spawns>

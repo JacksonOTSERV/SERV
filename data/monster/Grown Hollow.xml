@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Grown Hollow" nameDescription="a grown hollow" race="blood" experience="1000" speed="250" manacost="0">
+	<health now="2000" max="2000" />
+	<look type="10" head="0" body="0" legs="0" feet="0" addons="0" corpse="16330" />
+	<targetchange interval="5000" chance="8" />
+	<strategy attack="100" defense="0" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-50" max="-150" />
+	</attacks>
+	<defenses armor="20" defense="20" />
+	<immunities>
+	</immunities>
+</monster>

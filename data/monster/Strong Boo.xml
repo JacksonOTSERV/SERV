@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Strong Boo" nameDescription="an Strong Boo" race="blood" experience="35000" speed="850" manacost="0">
+  <health now="980000" max="980000" />
+  <look type="865" head="1" body="1" legs="1" feet="1" addons="0" corpse="16330" />
+  <targetchange interval="5000" chance="8" />
+  <strategy attack="100" defense="0" />
+  <flags>
+    <flag summonable="0" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="0" />
+    <flag convinceable="0" />
+    <flag pushable="1" />
+    <flag canpushitems="1" />
+    <flag canpushcreatures="1" />
+    <flag targetdistance="1" />
+    <flag staticattack="90" />
+    <flag runonhealth="0" />
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" min="-9500" max="-13000" />
+    <attack name="pink ball" interval="3000" chance="25" min="-2800" max="-3500" />
+    <attack name="vanishing rage" interval="1000" chance="25" min="-15000" max="-18000" />
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <immunities>
+    <immunity physical="0" />
+    <immunity energy="0" />
+    <immunity fire="0" />
+    <immunity poison="0" />
+    <immunity lifedrain="0" />
+    <immunity paralyze="1" />
+    <immunity outfit="1" />
+    <immunity invisible="1" />
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Que fomeee!" />
+    <voice sentence="Vou te transformar em doce!" />
+    <voice sentence="MORRA!" />
+    <voice sentence="Vou fazer voce sofrer!" />
+  </voices>
+  <loot>
+    <item id="12674" chance="2500" />
+    <!-- Boo Legs -->
+    <item id="12701" chance="2500" />
+    <!-- White Glove -->
+    <item id="12730" chance="2500" />
+    <!-- Saiyan Sword -->
+  </loot>
+</monster>

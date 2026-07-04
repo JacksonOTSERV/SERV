@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Purching Bag" nameDescription="an Purching Bag" race="blood" experience="0" speed="0" manacost="0">
+  <health now="999999999" max="999999999" />
+  <look type="100" corpse="16330" />
+  <targetchange interval="60000" chance="0" />
+  <strategy attack="100" defense="0" />
+  <flags>
+    <flag summonable="0" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="0" />
+    <flag convinceable="0" />
+    <flag pushable="0" />
+    <flag canpushitems="1" />
+    <flag staticattack="50" />
+    <flag lightlevel="0" />
+    <flag lightcolor="0" />
+    <flag targetdistance="1" />
+    <flag runonhealth="0" />
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" min="0" max="-1" />
+  </attacks>
+  <defenses armor="0" defense="0">
+    <defense name="healing" interval="1000" chance="1000" min="9999999" max="9999999" />
+  </defenses>
+</monster>

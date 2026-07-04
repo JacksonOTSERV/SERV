@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<spawns>
+	<spawn centerx="1026" centery="1043" centerz="6" radius="1" />
+	<spawn centerx="1039" centery="1028" centerz="7" radius="1" />
+	<spawn centerx="1013" centery="1037" centerz="7" radius="1" />
+</spawns>

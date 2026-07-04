@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<outfits>
+	<!--- Goku -->
+	<!--- Form 1 -->
+    <outfit type="0" looktype="1118" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="1118" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 2 -->
+    <outfit type="0" looktype="804" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="804" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 3 -->
+    <outfit type="0" looktype="806" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="806" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 4 -->
+    <outfit type="0" looktype="1122" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="1122" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 5 -->
+    <outfit type="0" looktype="807" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="807" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 6 -->
+    <outfit type="0" looktype="808" name="Form 6 (ultima)" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="808" name="Form 6 (ultima)" premium="no" unlocked="no" enabled="yes" />
+	
+	<!--- Vegeta -->
+	<!--- Form 1 -->
+    <outfit type="0" looktype="918" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="918" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 2 -->
+    <outfit type="0" looktype="919" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="919" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 3 -->
+    <outfit type="0" looktype="917" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="917" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 4 -->
+    <outfit type="0" looktype="915" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="915" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 5 -->
+    <outfit type="0" looktype="1127" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="1127" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 6 -->
+    <outfit type="0" looktype="1124" name="Form 6" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="1124" name="Form 6" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 7 -->
+    <outfit type="0" looktype="1123" name="Form 7" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="1123" name="Form 7" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 8 -->
+    <outfit type="0" looktype="1125" name="Form 8 (ultima)" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="1125" name="Form 8 (ultima)" premium="no" unlocked="no" enabled="yes" />
+	
+	<!--- Piccolo -->
+	<!--- Form 1 -->
+    <outfit type="0" looktype="33" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="33" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 2 -->
+    <outfit type="0" looktype="34" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="34" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 3 -->
+    <outfit type="0" looktype="35" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="35" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 4 -->
+    <outfit type="0" looktype="36" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="36" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 5 -->
+    <outfit type="0" looktype="40" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="40" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 6 -->
+    <outfit type="0" looktype="41" name="Form 6" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="41" name="Form 6" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 7 -->
+    <outfit type="0" looktype="42" name="Form 7" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="42" name="Form 7" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 8 -->
+    <outfit type="0" looktype="43" name="Form 8 (ultima)" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="43" name="Form 8 (ultima)" premium="no" unlocked="no" enabled="yes" />
+
+	<!--- C17 -->
+	<!--- Form 1 -->
+    <outfit type="0" looktype="46" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="46" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 2 -->
+    <outfit type="0" looktype="47" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="47" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 3 -->
+    <outfit type="0" looktype="48" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="48" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 4 -->
+    <outfit type="0" looktype="50" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="50" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 5 -->
+    <outfit type="0" looktype="49" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="49" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 6 -->
+    <outfit type="0" looktype="53" name="Form 6" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="53" name="Form 6" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 7 -->
+    <outfit type="0" looktype="52" name="Form 7" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="52" name="Form 7" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 8 -->
+    <outfit type="0" looktype="51" name="Form 8" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="51" name="Form 8" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 9 -->
+    <outfit type="0" looktype="54" name="Form 9 (ultima)" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="54" name="Form 9 (ultima)" premium="no" unlocked="no" enabled="yes" />
+
+	<!--- Gohan -->
+	<!--- Form 1 -->
+    <outfit type="0" looktype="55" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="55" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 2 -->
+    <outfit type="0" looktype="57" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="57" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 3 -->
+    <outfit type="0" looktype="58" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="58" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 4 -->
+    <outfit type="0" looktype="59" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="59" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 5 -->
+    <outfit type="0" looktype="60" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="60" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 6 -->
+    <outfit type="0" looktype="61" name="Form 6" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="61" name="Form 6" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 7 -->
+    <outfit type="0" looktype="62" name="Form 7" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="62" name="Form 7" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 8 -->
+    <outfit type="0" looktype="63" name="Form 8" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="63" name="Form 8" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 9 -->
+    <outfit type="0" looktype="64" name="Form 9 (ultima)" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="64" name="Form 9 (ultima)" premium="no" unlocked="no" enabled="yes" />
+	
+	<!--- Trunks -->
+	<!--- Form 1 -->
+    <outfit type="0" looktype="906" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="906" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 2 -->
+    <outfit type="0" looktype="907" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="907" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 3 -->
+    <outfit type="0" looktype="908" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="908" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 4 -->
+    <outfit type="0" looktype="900" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="900" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 5 -->
+    <outfit type="0" looktype="903" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="903" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 6 -->
+    <outfit type="0" looktype="902" name="Form 6" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="902" name="Form 6" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 7 -->
+    <outfit type="0" looktype="904" name="Form 7" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="904" name="Form 7" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 8 -->
+    <outfit type="0" looktype="905" name="Form 8" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="905" name="Form 8" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 9 -->
+    <outfit type="0" looktype="1130" name="Form 9" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="1130" name="Form 9" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 10 -->
+    <outfit type="0" looktype="1129" name="Form 10" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="1129" name="Form 10" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 11 -->
+    <outfit type="0" looktype="1128" name="Form 11 (ultima)" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="1128" name="Form 11 (ultima)" premium="no" unlocked="no" enabled="yes" />
+
+	<!--- Cell -->
+	<!--- Form 1 -->
+    <outfit type="0" looktype="778" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="778" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 2 -->
+    <outfit type="0" looktype="777" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="777" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 3 -->
+    <outfit type="0" looktype="779" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="779" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 4 -->
+    <outfit type="0" looktype="1120" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="1120" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 5 -->
+    <outfit type="0" looktype="1119" name="Form 5 (ultima)" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="1119" name="Form 5 (ultima)" premium="no" unlocked="no" enabled="yes" />
+	
+	<!--- Freeza -->
+	<!--- Form 1 -->
+    <outfit type="0" looktype="794" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="794" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 2 -->
+    <outfit type="0" looktype="1136" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="1136" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 3 -->
+    <outfit type="0" looktype="1132" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="1132" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 4 -->
+    <outfit type="0" looktype="1133" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="1133" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 5 -->
+    <outfit type="0" looktype="1135" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="1135" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 6 -->
+    <outfit type="0" looktype="1137" name="Form 6" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="1137" name="Form 6" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 7 -->
+    <outfit type="0" looktype="1134" name="Form 7" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="1134" name="Form 7" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 8 -->
+    <outfit type="0" looktype="1131" name="Form 8 (ultima)" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="1131" name="Form 8 (ultima)" premium="no" unlocked="no" enabled="yes" />
+
+	<!--- Buu -->
+	<!--- Form 1 -->
+    <outfit type="0" looktype="857" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="857" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 2 -->
+    <outfit type="0" looktype="860" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="860" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 3 -->
+    <outfit type="0" looktype="859" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="859" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 4 -->
+    <outfit type="0" looktype="863" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="863" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 5 -->
+    <outfit type="0" looktype="862" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="862" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 6 -->
+    <outfit type="0" looktype="861" name="Form 6" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="861" name="Form 6" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 7 -->
+    <outfit type="0" looktype="865" name="Form 7" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="865" name="Form 7" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 8 -->
+    <outfit type="0" looktype="866" name="Form 8 (ultima)" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="866" name="Form 8 (ultima)" premium="no" unlocked="no" enabled="yes" />
+	
+	<!--- Broly -->
+	<!--- Form 1 -->
+    <outfit type="0" looktype="1117" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="1117" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 2 -->
+    <outfit type="0" looktype="747" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="747" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 3 -->
+    <outfit type="0" looktype="748" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="748" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 4 -->
+    <outfit type="0" looktype="749" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="749" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 5 -->
+    <outfit type="0" looktype="750" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="750" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 6 -->
+    <outfit type="0" looktype="746" name="Form 6 (ultima)" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="746" name="Form 6 (ultima)" premium="no" unlocked="no" enabled="yes" />
+	
+	<!--- Goten -->
+	<!--- Form 1 -->
+    <outfit type="0" looktype="135" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="135" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 2 -->
+    <outfit type="0" looktype="136" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="136" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 3 -->
+    <outfit type="0" looktype="137" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="137" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 4 -->
+    <outfit type="0" looktype="139" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="139" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 5 -->
+    <outfit type="0" looktype="140" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="140" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 6 -->
+    <outfit type="0" looktype="141" name="Form 6" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="141" name="Form 6" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 7 -->
+    <outfit type="0" looktype="1141" name="Form 7" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="1141" name="Form 7" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 8 -->
+    <outfit type="0" looktype="1139" name="Form 8 (ultima)" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="1139" name="Form 8 (ultima)" premium="no" unlocked="no" enabled="yes" />
+
+	<!--- Kuririn -->
+	<!--- Form 1 -->
+    <outfit type="0" looktype="200" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="200" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 2 -->
+    <outfit type="0" looktype="201" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="201" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 3 -->
+    <outfit type="0" looktype="202" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="202" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 4 -->
+    <outfit type="0" looktype="203" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="203" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 5 -->
+    <outfit type="0" looktype="204" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="204" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 6 -->
+    <outfit type="0" looktype="1138" name="Form 6 (ultima)" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="1138" name="Form 6 (ultima)" premium="no" unlocked="no" enabled="yes" />
+
+	<!--- Janemba -->
+	<!--- Form 1 -->
+    <outfit type="0" looktype="987" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="987" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 2 -->
+    <outfit type="0" looktype="986" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="986" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 3 -->
+    <outfit type="0" looktype="984" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="984" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 4 -->
+    <outfit type="0" looktype="983" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="983" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 5 -->
+    <outfit type="0" looktype="985" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="985" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 6 -->
+    <outfit type="0" looktype="988" name="Form 6" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="988" name="Form 6" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 7 -->
+    <outfit type="0" looktype="989" name="Form 7 (ultima)" premium="no" unlocked="no" enabled="yes" />
+    <outfit type="1" looktype="989" name="Form 7 (ultima)" premium="no" unlocked="no" enabled="yes" />
+	
+	<!--- Tapion -->
+	<!--- Form 1 -->
+	<outfit type="0" looktype="1211" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1211" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 2 -->
+	<outfit type="0" looktype="1210" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1210" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 3 -->
+	<outfit type="0" looktype="1209" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1209" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 4 -->
+	<outfit type="0" looktype="1208" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1208" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 5 -->
+	<outfit type="0" looktype="1207" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1207" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 6 -->
+	<outfit type="0" looktype="1202" name="Form 6" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1202" name="Form 6" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 7 -->
+	<outfit type="0" looktype="1201" name="Form 7" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1201" name="Form 7" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 8 (ultima) -->
+	<outfit type="0" looktype="899" name="Form 8 (ultima)" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="899" name="Form 8 (ultima)" premium="no" unlocked="no" enabled="yes" />
+
+	<!--- Chilled -->
+	<!--- Form 1 -->
+	<outfit type="0" looktype="1155" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1155" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 2 -->
+	<outfit type="0" looktype="1154" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1154" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 3 -->
+	<outfit type="0" looktype="1153" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1153" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 4 -->
+	<outfit type="0" looktype="1152" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1152" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 5 -->
+	<outfit type="0" looktype="1151" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1151" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 6 -->
+	<outfit type="0" looktype="1150" name="Form 6" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1150" name="Form 6" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 7 -->
+	<outfit type="0" looktype="1149" name="Form 7" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1149" name="Form 7" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 8 -->
+	<outfit type="0" looktype="1148" name="Form 8" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1148" name="Form 8" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 9 (ultima) -->
+	<outfit type="0" looktype="1147" name="Form 9 (ultima)" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1147" name="Form 9 (ultima)" premium="no" unlocked="no" enabled="yes" />
+	
+	<!--- Kagome -->
+	<!--- Form 1 -->
+	<outfit type="0" looktype="1163" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1163" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 2 -->
+	<outfit type="0" looktype="1162" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1162" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 3 -->
+	<outfit type="0" looktype="1161" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1161" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 4 -->
+	<outfit type="0" looktype="1160" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1160" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 5 -->
+	<outfit type="0" looktype="1157" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1157" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 6 -->
+	<outfit type="0" looktype="1156" name="Form 6" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1156" name="Form 6" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 7 -->
+	<outfit type="0" looktype="1236" name="Form 7" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1236" name="Form 7" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 8 (ultima) -->
+	<outfit type="0" looktype="1231" name="Form 8 (ultima)" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1231" name="Form 8 (ultima)" premium="no" unlocked="no" enabled="yes" />
+
+	<!--- Zaiko -->
+	<!--- Form 1 -->
+	<outfit type="0" looktype="1229" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1229" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 2 -->
+	<outfit type="0" looktype="1228" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1228" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 3 -->
+	<outfit type="0" looktype="1226" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1226" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 4 -->
+	<outfit type="0" looktype="1227" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1227" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 5 -->
+	<outfit type="0" looktype="1225" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1225" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 6 -->
+	<outfit type="0" looktype="1234" name="Form 6" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1234" name="Form 6" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 7 -->
+	<outfit type="0" looktype="1232" name="Form 7" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1232" name="Form 7" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 8 (ultima) -->
+	<outfit type="0" looktype="1233" name="Form 8 (ultima)" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1233" name="Form 8 (ultima)" premium="no" unlocked="no" enabled="yes" />
+
+	<!--- King Vegeta -->
+	<!--- Form 1 -->
+	<outfit type="0" looktype="1180" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1180" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 2 -->
+	<outfit type="0" looktype="1192" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1192" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 3 -->
+	<outfit type="0" looktype="1184" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1184" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 4 -->
+	<outfit type="0" looktype="1182" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1182" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 5 -->
+	<outfit type="0" looktype="1190" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1190" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 6 -->
+	<outfit type="0" looktype="1188" name="Form 6" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1188" name="Form 6" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 7 -->
+	<outfit type="0" looktype="1186" name="Form 7" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1186" name="Form 7" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 8 (ultima) -->
+	<outfit type="0" looktype="1178" name="Form 8 (ultima)" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1178" name="Form 8 (ultima)" premium="no" unlocked="no" enabled="yes" />
+
+	<!--- Vegetto -->
+	<!--- Form 1 -->
+	<outfit type="0" looktype="1217" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1217" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 2 -->
+	<outfit type="0" looktype="1216" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1216" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 3 -->
+	<outfit type="0" looktype="1215" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1215" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 4 -->
+	<outfit type="0" looktype="1214" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1214" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 5 -->
+	<outfit type="0" looktype="1213" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1213" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 6 (ultima) -->
+	<outfit type="0" looktype="1212" name="Form 6 (ultima)" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1212" name="Form 6 (ultima)" premium="no" unlocked="no" enabled="yes" />
+
+	<!--- Kame -->
+	<!--- Form 1 -->
+	<outfit type="0" looktype="1175" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1175" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 2 -->
+	<outfit type="0" looktype="1174" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1174" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 3 -->
+	<outfit type="0" looktype="1173" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1173" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 4 -->
+	<outfit type="0" looktype="1172" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1172" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 5 -->
+	<outfit type="0" looktype="1169" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1169" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 6 -->
+	<outfit type="0" looktype="1171" name="Form 6" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1171" name="Form 6" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 7 -->
+	<outfit type="0" looktype="1168" name="Form 7" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1168" name="Form 7" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 8 -->
+	<outfit type="0" looktype="1167" name="Form 8" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1167" name="Form 8" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 9 -->
+	<outfit type="0" looktype="1235" name="Form 9" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1235" name="Form 9" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 10 (ultima) -->
+	<outfit type="0" looktype="1230" name="Form 10 (ultima)" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1230" name="Form 10 (ultima)" premium="no" unlocked="no" enabled="yes" />
+
+	<!--- Shenron -->
+	<!--- Form 1 -->
+	<outfit type="0" looktype="1197" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1197" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 2 -->
+	<outfit type="0" looktype="1198" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1198" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 3 -->
+	<outfit type="0" looktype="1199" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1199" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 4 -->
+	<outfit type="0" looktype="1199" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1199" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 5 -->
+	<outfit type="0" looktype="1195" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1195" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 6 -->
+	<outfit type="0" looktype="1194" name="Form 6" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1194" name="Form 6" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 7 (ultima) -->
+	<outfit type="0" looktype="1200" name="Form 7 (ultima)" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1200" name="Form 7 (ultima)" premium="no" unlocked="no" enabled="yes" />
+	
+	<!--- Kaioh -->
+	<!--- Form 1 -->
+	<outfit type="0" looktype="219" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="219" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 2 -->
+	<outfit type="0" looktype="220" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="220" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 3 -->
+	<outfit type="0" looktype="221" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="221" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 4 -->
+	<outfit type="0" looktype="222" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="222" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 5 -->
+	<outfit type="0" looktype="223" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="223" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 6 -->
+	<outfit type="0" looktype="224" name="Form 6" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="224" name="Form 6" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 7 (ultima) -->
+	<outfit type="0" looktype="225" name="Form 7 (ultima)" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="225" name="Form 7 (ultima)" premium="no" unlocked="no" enabled="yes" />
+
+	<!--- Goku Black -->
+	<!--- Form 1 -->
+	<outfit type="0" looktype="651" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="651" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 2 -->
+	<outfit type="0" looktype="652" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="652" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 3 -->
+	<outfit type="0" looktype="653" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="653" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 4 -->
+	<outfit type="0" looktype="654" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="654" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 5 -->
+	<outfit type="0" looktype="655" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="655" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 6 (ultima) -->
+	<outfit type="0" looktype="656" name="Form 6 (ultima)" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="656" name="Form 6 (ultima)" premium="no" unlocked="no" enabled="yes" />
+
+	<!--- Jiren -->
+	<!--- Form 1 -->
+	<outfit type="0" looktype="1001" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1001" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 2 -->
+	<outfit type="0" looktype="1002" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1002" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 3 -->
+	<outfit type="0" looktype="1003" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1003" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 4 -->
+	<outfit type="0" looktype="1004" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1004" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 5 -->
+	<outfit type="0" looktype="1005" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1005" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 6 (ultima -->
+	<outfit type="0" looktype="1006" name="Form 6 (ultima)" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1006" name="Form 6 (ultima)" premium="no" unlocked="no" enabled="yes" />
+
+	<!--- Zamasu -->
+	<!--- Form 1 -->
+	<outfit type="0" looktype="1110" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1110" name="Form 1" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 2 -->
+	<outfit type="0" looktype="1109" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1109" name="Form 2" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 3 -->
+	<outfit type="0" looktype="1108" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1108" name="Form 3" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 4 -->
+	<outfit type="0" looktype="1104" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1104" name="Form 4" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 5 -->
+	<outfit type="0" looktype="1103" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1103" name="Form 5" premium="no" unlocked="no" enabled="yes" />
+	<!--- Form 6 (ultima) -->
+	<outfit type="0" looktype="1102" name="Form 6 (ultima)" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1102" name="Form 6 (ultima)" premium="no" unlocked="no" enabled="yes" />
+	
+	<!--- Skins -->
+	<outfit type="0" looktype="1245" name="Goku Justice" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1245" name="Goku Justice" premium="no" unlocked="no" enabled="yes" />
+
+	<outfit type="0" looktype="1254" name="Vegeta Justice" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1254" name="Vegeta Justice" premium="no" unlocked="no" enabled="yes" />
+
+	<outfit type="0" looktype="1243" name="Piccolo Justice" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1243" name="Piccolo Justice" premium="no" unlocked="no" enabled="yes" />
+
+	<outfit type="0" looktype="1240" name="C17 Justice" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1240" name="C17 Justice" premium="no" unlocked="no" enabled="yes" />
+
+	<outfit type="0" looktype="1244" name="Gohan Justice" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1244" name="Gohan Justice" premium="no" unlocked="no" enabled="yes" />
+
+	<outfit type="0" looktype="1253" name="Trunks Justice" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1253" name="Trunks Justice" premium="no" unlocked="no" enabled="yes" />
+
+	<outfit type="0" looktype="1242" name="Cell Justice" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1242" name="Cell Justice" premium="no" unlocked="no" enabled="yes" />
+
+	<outfit type="0" looktype="1248" name="Freeza Justice" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1248" name="Freeza Justice" premium="no" unlocked="no" enabled="yes" />
+
+	<outfit type="0" looktype="1238" name="Buu Justice" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1238" name="Buu Justice" premium="no" unlocked="no" enabled="yes" />
+
+	<outfit type="0" looktype="1241" name="Broly Justice" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1241" name="Broly Justice" premium="no" unlocked="no" enabled="yes" />
+
+	<outfit type="0" looktype="1246" name="Goten Justice" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1246" name="Goten Justice" premium="no" unlocked="no" enabled="yes" />
+
+	<outfit type="0" looktype="1250" name="Kuririn Justice" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1250" name="Kuririn Justice" premium="no" unlocked="no" enabled="yes" />
+
+	<outfit type="0" looktype="1247" name="Janemba Justice" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1247" name="Janemba Justice" premium="no" unlocked="no" enabled="yes" />
+
+	<outfit type="0" looktype="1252" name="Tapion Justice" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1252" name="Tapion Justice" premium="no" unlocked="no" enabled="yes" />
+
+	<outfit type="0" looktype="1258" name="Chilled Justice" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1258" name="Chilled Justice" premium="no" unlocked="no" enabled="yes" />
+
+	<outfit type="0" looktype="1239" name="Kagome Justice" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1239" name="Kagome Justice" premium="no" unlocked="no" enabled="yes" />
+
+	<outfit type="0" looktype="1256" name="Zaiko Justice" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1256" name="Zaiko Justice" premium="no" unlocked="no" enabled="yes" />
+
+	<outfit type="0" looktype="1249" name="King Vegeta Justice" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1249" name="King Vegeta Justice" premium="no" unlocked="no" enabled="yes" />
+
+	<outfit type="0" looktype="1255" name="Vegetto Justice" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1255" name="Vegetto Justice" premium="no" unlocked="no" enabled="yes" />
+
+	<outfit type="0" looktype="1251" name="Kame Justice" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1251" name="Kame Justice" premium="no" unlocked="no" enabled="yes" />
+
+	<outfit type="0" looktype="1257" name="Shenron Justice" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1257" name="Shenron Justice" premium="no" unlocked="no" enabled="yes" />
+	
+	<outfit type="0" looktype="1267" name="Black Justice" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1267" name="Black Justice" premium="no" unlocked="no" enabled="yes" />
+	
+	<outfit type="0" looktype="1268" name="Zamasu Justice" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1268" name="Zamasu Justice" premium="no" unlocked="no" enabled="yes" />
+	
+	<outfit type="0" looktype="1269" name="Jiren Justice" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1269" name="Jiren Justice" premium="no" unlocked="no" enabled="yes" />
+	
+	<outfit type="0" looktype="1270" name="Kaioh Justice" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1270" name="Kaioh Justice" premium="no" unlocked="no" enabled="yes" />
+	
+	<outfit type="0" looktype="1265" name="Destruction God" premium="no" unlocked="no" enabled="yes" />
+	<outfit type="1" looktype="1265" name="Destruction God" premium="no" unlocked="no" enabled="yes" />
+</outfits>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elder Namekjin" nameDescription="an Elder Namekjin" race="blood" experience="18000" speed="400" manacost="0">
+  <health now="30000" max="30000" />
+  <look type="41" head="1" body="1" legs="1" feet="1" addons="0" corpse="12792" />
+  <targetchange interval="5000" chance="8" />
+  <strategy attack="100" defense="0" />
+  <flags>
+    <flag summonable="0" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="0" />
+    <flag convinceable="0" />
+    <flag pushable="1" />
+    <flag canpushitems="1" />
+    <flag canpushcreatures="1" />
+    <flag targetdistance="3" />
+    <flag staticattack="90" />
+    <flag runonhealth="0" />
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" min="-2500" max="-3500" />
+    <attack name="hell granade" interval="1000" min="-800" max="-1000" />
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <immunities>
+    <immunity physical="0" />
+    <immunity energy="0" />
+    <immunity fire="0" />
+    <immunity poison="0" />
+    <immunity lifedrain="0" />
+    <immunity paralyze="0" />
+    <immunity outfit="1" />
+    <immunity invisible="1" />
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Morra ou suma da minha frente!" />
+    <voice sentence="Maldito!" />
+    <voice sentence="Agora estou mais forte!" />
+  </voices>
+  <loot>
+    <item id="12629" chance="1200" />
+    <!-- Piccolo Cap -->
+    <item id="12643" chance="1200" />
+    <!-- Piccolo Armor -->
+    <item id="12653" chance="1200" />
+    <!-- Piccolo Robe -->
+    <item id="12673" chance="1200" />
+    <!-- Piccolo Legs -->
+  </loot>
+</monster>

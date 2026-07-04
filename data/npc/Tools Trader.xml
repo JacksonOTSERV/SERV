@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Tools Trader" script="default.lua" walkinterval="2000">
+	<health now="100" max="100"/>
+	<look type="461"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Olá, |PLAYERNAME|! Eu vendo alguns itens que podem ajudar na sua jornada! Diga {Trade}."/>
+		<parameter key="shop_buyable" value="
+			Scythe,2550,10000;
+			Torch,2050,10000;
+			Pick,2553,10000;
+			Shovel,2554,10000;
+			Fishing Rod,2580,10000;
+			Bag,1987,10000;
+			Green Capsule,12760,10000;
+			Blue Capsule,12761,10000;
+			Red Capsule,12762,10000;
+			Grey Capsule,12763,10000;
+			Pink Capsule,13445,10000;
+			Yellow Capsule,13446,10000;
+			Backpack,12764,10000
+		"/>
+	</parameters>
+</npc>

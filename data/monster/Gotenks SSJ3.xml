@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gotenks SSJ3" nameDescription="an Gotenks SSJ3" race="blood" experience="18000" speed="475" manacost="0">
+  <health now="200000" max="200000" />
+  <look type="141" head="1" body="1" legs="1" feet="1" addons="0" corpse="16330" />
+  <targetchange interval="5000" chance="8" />
+  <strategy attack="100" defense="0" />
+  <flags>
+    <flag summonable="0" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="0" />
+    <flag convinceable="0" />
+    <flag pushable="1" />
+    <flag canpushitems="1" />
+    <flag canpushcreatures="1" />
+    <flag targetdistance="1" />
+    <flag staticattack="90" />
+    <flag runonhealth="0" />
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" min="-5000" max="-10000" />
+    <attack name="kamikaze explosion" interval="1000" chance="25" min="-800" max="-1600" />
+    <attack name="disperse kamikaze" interval="3000" chance="25" min="-8000" max="-10000" />
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <immunities>
+    <immunity physical="0" />
+    <immunity energy="0" />
+    <immunity fire="0" />
+    <immunity poison="0" />
+    <immunity lifedrain="0" />
+    <immunity paralyze="0" />
+    <immunity outfit="1" />
+    <immunity invisible="1" />
+  </immunities>
+  <summons maxSummons="3">
+    <summon name="Ghost SSJ3" interval="2000" chance="10" max="3" />
+  </summons>
+  <voices interval="5000" chance="10">
+    <voice sentence="Haha! Voce nao e de nada pra mim!" />
+    <voice sentence="Sentira o poder do meu ataque kamikaze!" />
+    <voice sentence="Sinta todo meu poder!" />
+  </voices>
+  <loot>
+    <item id="12705" chance="2500" />
+    <!-- Saiyan Glove -->
+    <item id="12707" chance="2500" />
+    <!-- Vulcan Glove -->
+  </loot>
+</monster>

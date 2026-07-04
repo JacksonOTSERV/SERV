@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Raditz" nameDescription="an Raditz" race="blood" experience="10000" speed="300" manacost="0">
+  <health now="60000" max="60000" />
+  <look type="267" head="1" body="1" legs="1" feet="1" addons="0" corpse="12798" />
+  <targetchange interval="5000" chance="8" />
+  <strategy attack="100" defense="0" />
+  <flags>
+    <flag summonable="0" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="0" />
+    <flag convinceable="0" />
+    <flag pushable="1" />
+    <flag canpushitems="1" />
+    <flag canpushcreatures="1" />
+    <flag targetdistance="1" />
+    <flag staticattack="90" />
+    <flag runonhealth="0" />
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" min="-1000" max="-3000" />
+    <attack name="energy shyotu" interval="1000" chance="25" min="-1500" max="-2500" />
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <immunities>
+    <immunity physical="0" />
+    <immunity energy="0" />
+    <immunity fire="0" />
+    <immunity poison="0" />
+    <immunity lifedrain="0" />
+    <immunity paralyze="0" />
+    <immunity outfit="1" />
+    <immunity invisible="0" />
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Sua morte esta proxima!" />
+    <voice sentence="Me deixou furioso!!!" />
+  </voices>
+  <loot>
+    <item id="12644" chance="1200" />
+    <!-- Raditz Armor -->
+  </loot>
+</monster>

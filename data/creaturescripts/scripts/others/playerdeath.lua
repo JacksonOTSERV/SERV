@@ -1,0 +1,173 @@
+local deathListEnabled = true
+local maxDeathRecords = 5
+local maxBless = 5
+
+function onPrepareDeath(player, killer)
+    local playerPosition = player:getPosition()
+    local areaTopLeft = Position(1163, 546, 7)
+    local areaBottomRight = Position(1254, 637, 7)
+
+    if playerPosition.x >= areaTopLeft.x and playerPosition.x <= areaBottomRight.x and
+       playerPosition.y >= areaTopLeft.y and playerPosition.y <= areaBottomRight.y and
+       playerPosition.z >= 5 and playerPosition.z <= 7 then
+
+        local playersInArea = {}
+
+        for _, otherPlayer in ipairs(Game.getPlayers()) do
+            if otherPlayer:getId() ~= player:getId() then
+                local pos = otherPlayer:getPosition()
+                if pos.x >= areaTopLeft.x and pos.x <= areaBottomRight.x and
+                   pos.y >= areaTopLeft.y and pos.y <= areaBottomRight.y and
+                   pos.z >= 5 and pos.z <= 7 then
+                    table.insert(playersInArea, otherPlayer)
+                end
+            end
+        end
+
+        if #playersInArea == 1 then
+            local winner = playersInArea[1]
+            Game.broadcastMessage("[TORNEIO PvP] O �ltimo sobrevivente na arena �: " .. winner:getName() .. " e foi o vencedor do torneio de hoje!", MESSAGE_EVENT_ADVANCE)
+            
+            setPresencePoints(winner, 3)
+            winner:addHealth(winner:getMaxHealth())
+            
+            local lugares = {
+                {681, 397, 7},
+                {679, 395, 7},
+                {680, 398, 7}
+            }
+            local lugar = lugares[math.random(1, #lugares)]
+            winner:teleportTo(Position(lugar[1], lugar[2], lugar[3]), true)
+            
+            local totalGold = TorneioData.total
+            if totalGold > 0 then
+                local itemId = 13599
+                local count = math.floor(totalGold / 1000000)
+                if count > 0 then
+                    local inbox = winner:getInbox()
+                    inbox:addItem(itemId, count, true, 1)
+                    winner:sendTextMessage(MESSAGE_EVENT_ADVANCE, "Voc� recebeu " .. totalGold .. " money do torneio em seu mailbox!")
+                end
+            end
+
+            TorneioData.reset()
+        end
+    end
+	
+	local tile = Tile(playerPosition)
+	if tile and tile:hasFlag(TILESTATE_PVPZONE) then
+	player:addHealth(player:getMaxHealth())
+		local lugares = {
+			{681, 397, 7},
+			{679, 395, 7},
+			{680, 398, 7}
+		}
+		local lugar = lugares[math.random(1, #lugares)]
+		player:teleportTo(Position(lugar[1], lugar[2], lugar[3]), true)
+	end
+
+    return true
+end
+
+function onDeath(player, corpse, killer, mostDamageKiller, unjustified, mostDamageUnjustified)
+	local playerId = player:getId()
+	if nextUseStaminaTime[playerId] then
+		nextUseStaminaTime[playerId] = nil
+	end
+	
+	player:setStorageValue(8792, 1)
+
+	if not deathListEnabled then
+		return
+	end
+
+	playerBless = 0
+	aolLog = 0
+
+	local amulet = player:getSlotItem(CONST_SLOT_NECKLACE)
+    if amulet and amulet.itemid == ITEM_AMULETOFLOSS then
+        aolLog = 1
+	end
+
+    for i = 1, maxBless do
+        if player:hasBlessing(i) then
+            local count = i * i
+            playerBless = playerBless + count
+        end
+    end
+
+	local byPlayer = 0
+	local killerName
+	if killer then
+		if killer:isPlayer() then
+			byPlayer = 1
+		else
+			local master = killer:getMaster()
+			if master and master ~= killer and master:isPlayer() then
+				killer = master
+				byPlayer = 1
+			end
+		end
+		killerName = killer:getName()
+	else
+		killerName = "field item"
+	end
+
+	local byPlayerMostDamage = 0
+	local mostDamageKillerName
+	if mostDamageKiller then
+		if mostDamageKiller:isPlayer() then
+			byPlayerMostDamage = 1
+		else
+			local master = mostDamageKiller:getMaster()
+			if master and master ~= mostDamageKiller and master:isPlayer() then
+				mostDamageKiller = master
+				byPlayerMostDamage = 1
+			end
+		end
+		mostDamageName = mostDamageKiller:getName()
+	else
+		mostDamageName = "field item"
+	end
+
+	local playerGuid = player:getGuid()
+	db.query("INSERT INTO `player_deaths` (`player_id`, `time`, `level`, `killed_by`, `is_player`, `mostdamage_by`, `mostdamage_is_player`, `unjustified`, `mostdamage_unjustified`, `bless`, `aol`) VALUES (" .. playerGuid .. ", " .. os.time() .. ", " .. player:getLevel() .. ", " .. db.escapeString(killerName) .. ", " .. byPlayer .. ", " .. db.escapeString(mostDamageName) .. ", " .. byPlayerMostDamage .. ", " .. (unjustified and 1 or 0) .. ", " .. (mostDamageUnjustified and 1 or 0) .. ", ".. playerBless ..", ".. aolLog ..")")
+	local resultId = db.storeQuery("SELECT `player_id` FROM `player_deaths` WHERE `player_id` = " .. playerGuid)
+
+	local deathRecords = 0
+	local tmpResultId = resultId
+	while tmpResultId ~= false do
+		tmpResultId = result.next(resultId)
+		deathRecords = deathRecords + 1
+	end
+
+	if resultId ~= false then
+		result.free(resultId)
+	end
+
+	local limit = deathRecords - maxDeathRecords
+	if limit > 0 then
+		db.asyncQuery("DELETE FROM `player_deaths` WHERE `player_id` = " .. playerGuid .. " ORDER BY `time` LIMIT " .. limit)
+	end
+
+	if byPlayer == 1 then
+		local targetGuild = player:getGuild()
+		targetGuild = targetGuild and targetGuild:getId() or 0
+		if targetGuild ~= 0 then
+			local killerGuild = killer:getGuild()
+			killerGuild = killerGuild and killerGuild:getId() or 0
+			if killerGuild ~= 0 and targetGuild ~= killerGuild and isInWar(playerId, killer:getId()) then
+				local warId = false
+				resultId = db.storeQuery("SELECT `id` FROM `guild_wars` WHERE `status` = 1 AND ((`guild1` = " .. killerGuild .. " AND `guild2` = " .. targetGuild .. ") OR (`guild1` = " .. targetGuild .. " AND `guild2` = " .. killerGuild .. "))")
+				if resultId ~= false then
+					warId = result.getNumber(resultId, "id")
+					result.free(resultId)
+				end
+
+				if warId ~= false then
+					db.asyncQuery("INSERT INTO `guildwar_kills` (`killer`, `target`, `killerguild`, `targetguild`, `time`, `warid`) VALUES (" .. db.escapeString(killerName) .. ", " .. db.escapeString(player:getName()) .. ", " .. killerGuild .. ", " .. targetGuild .. ", " .. os.time() .. ", " .. warId .. ")")
+				end
+			end
+		end
+	end
+end

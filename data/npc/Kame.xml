@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Kame" script="kame.lua" walkinterval="2000">
+	<health now="100" max="100"/>
+	<look type="330"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Olá, |PLAYERNAME|! Estou procurando a minha revista e não lembro onde deixei, pode me ajudar a encontrar? {yes}"/>
+	</parameters>
+</npc>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Raditz SSJ5" nameDescription="an Raditz SSJ5" race="blood" experience="60000" speed="800" manacost="0">
+  <health now="840000" max="840000" />
+  <look type="270" head="1" body="1" legs="1" feet="1" addons="0" corpse="12798" />
+  <targetchange interval="5000" chance="8" />
+  <strategy attack="100" defense="0" />
+  <flags>
+    <flag summonable="0" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="0" />
+    <flag convinceable="0" />
+    <flag pushable="1" />
+    <flag canpushitems="1" />
+    <flag canpushcreatures="1" />
+    <flag targetdistance="1" />
+    <flag staticattack="90" />
+    <flag runonhealth="0" />
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" min="-12000" max="-14000" />
+    <attack name="super explosion wave" interval="1000" chance="25" min="-22000" max="-26000" />
+    <attack name="energy shyotu" interval="2000" chance="25" min="-7000" max="-13000" />
+    <attack name="saiyajin blast" interval="3000" chance="25" min="-2100" max="-2500" />
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <immunities>
+    <immunity physical="0" />
+    <immunity energy="0" />
+    <immunity fire="0" />
+    <immunity poison="0" />
+    <immunity lifedrain="0" />
+    <immunity paralyze="1" />
+    <immunity outfit="1" />
+    <immunity invisible="1" />
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Sua morte esta proxima!" />
+    <voice sentence="Me deixou furioso!!!" />
+    <voice sentence="Voce e muito lerdo!" />
+  </voices>
+  <loot>
+    <item id="12644" chance="4000" />
+    <!-- Raditz Armor -->
+    <item id="12707" chance="4000" />
+    <!-- Vulcan Glove -->
+  </loot>
+</monster>

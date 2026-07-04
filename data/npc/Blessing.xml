@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Blessing Seller" script="bless.lua" walkinterval="2000" speed="0" floorchange="0">
+	<health now="100" max="100" />
+	<look type="326"/>
+	<parameters>
+		<parameter key="message_greet" value="Olá |PLAYERNAME|. Deseja adquirir uma {bless}?"/>
+	</parameters>
+</npc>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Dederin" script="dederin.lua" walkinterval="0">
+	<health now="100" max="100"/>
+	<look type="459"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Olá, |PLAYERNAME|! Eu posso te levar para {Small City}, {Namek Island}, {Big City}, {Ice City}, {Frozen City}, {West Island}, {East Island}, {Broken City} e {Assassin Tower}."/>
+	</parameters>
+</npc>

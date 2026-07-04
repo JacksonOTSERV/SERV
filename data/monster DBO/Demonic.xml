@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Demonic" nameDescription="an Demonic" race="blood" experience="20000" speed="800" manacost="0">
+  <health now="807500" max="807500" />
+  <look type="494" corpse="13375" />
+  <targetchange interval="5000" chance="8" />
+  <strategy attack="100" defense="0" />
+  <flags>
+    <flag summonable="0" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="0" />
+    <flag convinceable="0" />
+    <flag pushable="1" />
+    <flag canpushitems="1" />
+    <flag canpushcreatures="1" />
+    <flag targetdistance="1" />
+    <flag staticattack="90" />
+    <flag runonhealth="0" />
+  </flags>
+	<attacks>
+	  <attack name="melee" interval="500" min="-4200" max="-5600" />
+	  <attack name="negative karma ball" interval="1500" chance="75" min="-2100" max="-2450" />
+	  <attack name="combo impact" interval="1000" chance="80" min="-21000" max="-24500" />
+	  <attack name="mega shunkanido" interval="2500" chance="50" min="-5600" max="-7000" />
+	  <attack name="dark furie" interval="3000" chance="4000" min="-14000" max="-17500" />
+	</attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <immunities>
+    <immunity physical="0" />
+    <immunity energy="0" />
+    <immunity fire="0" />
+    <immunity poison="0" />
+    <immunity lifedrain="0" />
+    <immunity paralyze="1" />
+    <immunity outfit="1" />
+    <immunity invisible="1" />
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Nao adianta fugir ou se esconder!" />
+    <voice sentence="Farei voce sofrer!" />
+    <voice sentence="Te mandarei para o inferno!" />
+    <voice sentence="MORRAM DESGRACADOS!!!" />
+  </voices>
+  <loot>
+    <item id="2160" countmax="3" chance="4000" />
+    <!-- Gold -->
+    <item id="13447" chance="4000" />
+    <!-- Elypson -->
+  </loot>
+</monster>

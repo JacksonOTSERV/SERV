@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<globalevents>
+
+	<!-- Custom -->
+	<globalevent name="Aviso" interval="3300000" script="custom/aviso.lua"/>
+	<globalevent name="Clean" interval="1011000" script="custom/clean.lua" />
+	<globalevent name="Save" interval="1800000" script="custom/save.lua" />
+	<globalevent name="Lottery" interval="3600000" script="custom/lottery.lua" />
+	<globalevent name="PendingPurchases" interval="30000" script="custom/process_pending_purchases.lua" />
+	<globalevent name="BossSpawnMorning" time="10:00" script="custom/boss_spawn.lua"/>
+	<globalevent name="BossSpawnNight" time="20:00" script="custom/boss_spawn.lua"/>
+	<globalevent name="reset_presence_points" time="21:00" script="custom/reset_presence_points.lua"/>
+	<globalevent name="Pvp_Event" time="19:00" script="custom/pvp_event.lua"/>
+	<globalevent name="rank_event_11" time="11:00" script="custom/rank_event.lua"/>
+	<globalevent name="rank_event_13" time="13:00" script="custom/rank_event.lua"/>
+	<globalevent name="rank_event_15" time="15:00" script="custom/rank_event.lua"/>
+	<globalevent name="rank_event_17" time="17:00" script="custom/rank_event.lua"/>
+	<globalevent name="MonsterTargetIndicator" interval="2000" script="custom/monster_target_indicator.lua" />
+
+
+	<!-- Others -->
+	<globalevent type="startup" name="presencePointsReset" script="others/presencePointsReset.lua" />
+
+</globalevents>

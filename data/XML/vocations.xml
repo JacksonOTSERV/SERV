@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocations>
+	<vocation id="0" clientid="0" name="None" description="none" gaincap="50" gainhp="280" gainmana="220" gainhpticks="2" gainhpamount="100" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.1" attackspeed="2000" soulmax="250" gainsoulticks="120" fromvoc="1">
+		<formula meleeDamage="1.0" distDamage="1.0" wandDamage="1.0" magDamage="0.8" magHealingDamage="0.5" defense="1.0" magDefense="1.0" armor="1.0"/>
+		<skill id="0" multiplier="1.1" />
+		<skill id="1" multiplier="1.1" />
+		<skill id="2" multiplier="1.1" />
+		<skill id="3" multiplier="1.1" />
+		<skill id="4" multiplier="1.1" />
+		<skill id="5" multiplier="1.1" />
+		<skill id="6" multiplier="1.1" />
+	</vocation>
+	<vocation id="1" clientid="1" name="Goku" description="um Goku" gaincap="100" gainhp="500" gainmana="400" gainhpticks="2" gainhpamount="100" gainmanaticks="2" gainmanaamount="100" manamultiplier="1.1" soulmax="250" gainsoulticks="15" fromvoc="1" corpse="12788">
+		<formula meleeDamage="3.0" distDamage="2.5" wandDamage="0.1" magDamage="2.7" magHealingDamage="1.0" defense="2.7" magdefense="2.3" armor="2.4"/>
+		<skill id="0" multiplier="1.1" />
+		<skill id="1" multiplier="1.1" />
+		<skill id="2" multiplier="1.1" />
+		<skill id="3" multiplier="1.1" />
+		<skill id="4" multiplier="1.1" />
+		<skill id="5" multiplier="1.1" />
+		<skill id="6" multiplier="1.1" />
+	</vocation>
+	<vocation id="2" clientid="2" name="Vegeta" description="um Vegeta" gaincap="100" gainhp="500" gainmana="400" gainhpticks="2" gainhpamount="100" gainmanaticks="2" gainmanaamount="100" manamultiplier="1.1" soulmax="250" gainsoulticks="15" fromvoc="2" corpse="12791">
+		<formula meleeDamage="3.0" distDamage="2.5" wandDamage="0.1" magDamage="2.7" magHealingDamage="1.0" defense="2.7" magdefense="2.3" armor="2.4"/>
+		<skill id="0" multiplier="1.1" />
+		<skill id="1" multiplier="1.1" />
+		<skill id="2" multiplier="1.1" />
+		<skill id="3" multiplier="1.1" />
+		<skill id="4" multiplier="1.1" />
+		<skill id="5" multiplier="1.1" />
+		<skill id="6" multiplier="1.1" />
+	</vocation>
+	<vocation id="3" clientid="3" name="Piccolo" description="um Piccolo" gaincap="100" gainhp="500" gainmana="400" gainhpticks="2" gainhpamount="100" gainmanaticks="2" gainmanaamount="100" manamultiplier="1.1" soulmax="250" gainsoulticks="15" fromvoc="3" corpse="12796">
+		<formula meleeDamage="3.0" distDamage="2.5" wandDamage="0.1" magDamage="2.7" magHealingDamage="1.0" defense="2.7" magdefense="2.3" armor="2.4"/>
+		<skill id="0" multiplier="1.1" />
+		<skill id="1" multiplier="1.1" />
+		<skill id="2" multiplier="1.1" />
+		<skill id="3" multiplier="1.1" />
+		<skill id="4" multiplier="1.1" />
+		<skill id="5" multiplier="1.1" />
+		<skill id="6" multiplier="1.1" />
+	</vocation>
+	<vocation id="4" clientid="4" name="C17" description="um C17" gaincap="100" gainhp="500" gainmana="400" gainhpticks="2" gainhpamount="100" gainmanaticks="2" gainmanaamount="100" manamultiplier="1.1" soulmax="250" gainsoulticks="15" fromvoc="4" corpse="12802">
+		<formula meleeDamage="3.0" distDamage="2.5" wandDamage="0.1" magDamage="2.7" magHealingDamage="1.0" defense="2.7" magdefense="2.3" armor="2.4"/>
+		<skill id="0" multiplier="1.1" />
+		<skill id="1" multiplier="1.1" />
+		<skill id="2" multiplier="1.1" />
+		<skill id="3" multiplier="1.1" />
+		<skill id="4" multiplier="1.1" />
+		<skill id="5" multiplier="1.1" />
+		<skill id="6" multiplier="1.1" />
+	</vocation>
+	<vocation id="5" clientid="5" name="Gohan" description="um Gohan" gaincap="100" gainhp="500" gainmana="400" gainhpticks="2" gainhpamount="100" gainmanaticks="2" gainmanaamount="100" manamultiplier="1.1" soulmax="250" gainsoulticks="15" fromvoc="5" corpse="12795">
+		<formula meleeDamage="3.0" distDamage="2.5" wandDamage="0.1" magDamage="2.7" magHealingDamage="1.0" defense="2.7" magdefense="2.3" armor="2.4"/>
+		<skill id="0" multiplier="1.1" />
+		<skill id="1" multiplier="1.1" />
+		<skill id="2" multiplier="1.1" />
+		<skill id="3" multiplier="1.1" />
+		<skill id="4" multiplier="1.1" />
+		<skill id="5" multiplier="1.1" />
+		<skill id="6" multiplier="1.1" />
+	</vocation>
+	<vocation id="6" clientid="6" name="Trunks" description="um Trunks" gaincap="100" gainhp="500" gainmana="400" gainhpticks="2" gainhpamount="100" gainmanaticks="2" gainmanaamount="100" manamultiplier="1.1" soulmax="250" gainsoulticks="15" fromvoc="6" corpse="12820">
+		<formula meleeDamage="3.0" distDamage="2.5" wandDamage="0.1" magDamage="2.7" magHealingDamage="1.0" defense="2.7" magdefense="2.3" armor="2.4"/>
+		<skill id="0" multiplier="1.1" />
+		<skill id="1" multiplier="1.1" />
+		<skill id="2" multiplier="1.1" />
+		<skill id="3" multiplier="1.1" />
+		<skill id="4" multiplier="1.1" />
+		<skill id="5" multiplier="1.1" />
+		<skill id="6" multiplier="1.1" />
+	</vocation>
+	<vocation id="7" clientid="7" name="Cell" description="um Cell" gaincap="100" gainhp="500" gainmana="400" gainhpticks="2" gainhpamount="100" gainmanaticks="2" gainmanaamount="100" manamultiplier="1.1" soulmax="250" gainsoulticks="15" fromvoc="7" corpse="12834">
+		<formula meleeDamage="3.0" distDamage="2.5" wandDamage="0.1" magDamage="2.7" magHealingDamage="1.0" defense="2.7" magdefense="2.3" armor="2.4"/>
+		<skill id="0" multiplier="1.1" />
+		<skill id="1" multiplier="1.1" />
+		<skill id="2" multiplier="1.1" />
+		<skill id="3" multiplier="1.1" />
+		<skill id="4" multiplier="1.1" />
+		<skill id="5" multiplier="1.1" />
+		<skill id="6" multiplier="1.1" />
+	</vocation>
+	<vocation id="8" clientid="8" name="Freeza" description="um Freeza" gaincap="100" gainhp="500" gainmana="400" gainhpticks="2" gainhpamount="100" gainmanaticks="2" gainmanaamount="100" manamultiplier="1.1" soulmax="250" gainsoulticks="15" fromvoc="8" corpse="12785">
+		<formula meleeDamage="3.0" distDamage="2.5" wandDamage="0.1" magDamage="2.7" magHealingDamage="1.0" defense="2.7" magdefense="2.3" armor="2.4"/>
+		<skill id="0" multiplier="1.1" />
+		<skill id="1" multiplier="1.1" />
+		<skill id="2" multiplier="1.1" />
+		<skill id="3" multiplier="1.1" />
+		<skill id="4" multiplier="1.1" />
+		<skill id="5" multiplier="1.1" />
+		<skill id="6" multiplier="1.1" />
+	</vocation>
+	<vocation id="9" clientid="9" name="Buu" description="um Buu" gaincap="100" gainhp="500" gainmana="400" gainhpticks="2" gainhpamount="100" gainmanaticks="2" gainmanaamount="100" manamultiplier="1.1" soulmax="250" gainsoulticks="15" fromvoc="9" corpse="12803">
+		<formula meleeDamage="3.0" distDamage="2.5" wandDamage="0.1" magDamage="2.7" magHealingDamage="1.0" defense="2.7" magdefense="2.3" armor="2.4"/>
+		<skill id="0" multiplier="1.1" />
+		<skill id="1" multiplier="1.1" />
+		<skill id="2" multiplier="1.1" />
+		<skill id="3" multiplier="1.1" />
+		<skill id="4" multiplier="1.1" />
+		<skill id="5" multiplier="1.1" />
+		<skill id="6" multiplier="1.1" />
+	</vocation>
+	<vocation id="10" clientid="10" name="Broly" description="um Broly" gaincap="100" gainhp="500" gainmana="400" gainhpticks="2" gainhpamount="100" gainmanaticks="2" gainmanaamount="100" manamultiplier="1.1" soulmax="250" gainsoulticks="15" fromvoc="10" corpse="12782">
+		<formula meleeDamage="3.0" distDamage="2.5" wandDamage="0.1" magDamage="2.7" magHealingDamage="1.0" defense="2.7" magdefense="2.3" armor="2.4"/>
+		<skill id="0" multiplier="1.1" />
+		<skill id="1" multiplier="1.1" />
+		<skill id="2" multiplier="1.1" />
+		<skill id="3" multiplier="1.1" />
+		<skill id="4" multiplier="1.1" />
+		<skill id="5" multiplier="1.1" />
+		<skill id="6" multiplier="1.1" />
+	</vocation>
+	<vocation id="11" clientid="11" name="Goten" description="um Goten" gaincap="100" gainhp="500" gainmana="400" gainhpticks="2" gainhpamount="100" gainmanaticks="2" gainmanaamount="100" manamultiplier="1.1" soulmax="250" gainsoulticks="15" fromvoc="11" corpse="12800">
+		<formula meleeDamage="3.0" distDamage="2.5" wandDamage="0.1" magDamage="2.7" magHealingDamage="1.0" defense="2.7" magdefense="2.3" armor="2.4"/>
+		<skill id="0" multiplier="1.1" />
+		<skill id="1" multiplier="1.1" />
+		<skill id="2" multiplier="1.1" />
+		<skill id="3" multiplier="1.1" />
+		<skill id="4" multiplier="1.1" />
+		<skill id="5" multiplier="1.1" />
+		<skill id="6" multiplier="1.1" />
+	</vocation>
+	<vocation id="12" clientid="12" name="Kuririn" description="um Kuririn" gaincap="100" gainhp="500" gainmana="400" gainhpticks="2" gainhpamount="100" gainmanaticks="2" gainmanaamount="100" manamultiplier="1.1" soulmax="250" gainsoulticks="15" fromvoc="12" corpse="12823">
+		<formula meleeDamage="3.0" distDamage="2.5" wandDamage="0.1" magDamage="2.7" magHealingDamage="1.0" defense="2.7" magdefense="2.3" armor="2.4"/>
+		<skill id="0" multiplier="1.1" />
+		<skill id="1" multiplier="1.1" />
+		<skill id="2" multiplier="1.1" />
+		<skill id="3" multiplier="1.1" />
+		<skill id="4" multiplier="1.1" />
+		<skill id="5" multiplier="1.1" />
+		<skill id="6" multiplier="1.1" />
+	</vocation>
+	<vocation id="13" clientid="13" name="Janemba" description="um Janemba" gaincap="100" gainhp="500" gainmana="400" gainhpticks="2" gainhpamount="100" gainmanaticks="2" gainmanaamount="100" manamultiplier="1.1" soulmax="250" gainsoulticks="15" fromvoc="13" corpse="12812">
+		<formula meleeDamage="3.0" distDamage="2.5" wandDamage="0.1" magDamage="2.7" magHealingDamage="1.0" defense="2.7" magdefense="2.3" armor="2.4"/>
+		<skill id="0" multiplier="1.1" />
+		<skill id="1" multiplier="1.1" />
+		<skill id="2" multiplier="1.1" />
+		<skill id="3" multiplier="1.1" />
+		<skill id="4" multiplier="1.1" />
+		<skill id="5" multiplier="1.1" />
+		<skill id="6" multiplier="1.1" />
+	</vocation>
+	<vocation id="14" clientid="14" name="Tapion" description="um Tapion" gaincap="100" gainhp="500" gainmana="400" gainhpticks="2" gainhpamount="100" gainmanaticks="2" gainmanaamount="100" manamultiplier="1.1" soulmax="250" gainsoulticks="15" fromvoc="14" corpse="12879">
+		<formula meleeDamage="3.0" distDamage="2.5" wandDamage="0.1" magDamage="2.7" magHealingDamage="1.0" defense="2.7" magdefense="2.3" armor="2.4"/>
+		<skill id="0" multiplier="1.1" />
+		<skill id="1" multiplier="1.1" />
+		<skill id="2" multiplier="1.1" />
+		<skill id="3" multiplier="1.1" />
+		<skill id="4" multiplier="1.1" />
+		<skill id="5" multiplier="1.1" />
+		<skill id="6" multiplier="1.1" />
+	</vocation>
+	<vocation id="15" clientid="15" name="Chilled" description="um Chilled" gaincap="100" gainhp="500" gainmana="400" gainhpticks="2" gainhpamount="100" gainmanaticks="2" gainmanaamount="100" manamultiplier="1.1" soulmax="250" gainsoulticks="15" fromvoc="15" corpse="12915">
+		<formula meleeDamage="3.0" distDamage="2.5" wandDamage="0.1" magDamage="2.7" magHealingDamage="1.0" defense="2.7" magdefense="2.3" armor="2.4"/>
+		<skill id="0" multiplier="1.1" />
+		<skill id="1" multiplier="1.1" />
+		<skill id="2" multiplier="1.1" />
+		<skill id="3" multiplier="1.1" />
+		<skill id="4" multiplier="1.1" />
+		<skill id="5" multiplier="1.1" />
+		<skill id="6" multiplier="1.1" />
+	</vocation>
+	<vocation id="16" clientid="16" name="Kagome" description="uma Kagome" gaincap="100" gainhp="500" gainmana="400" gainhpticks="2" gainhpamount="100" gainmanaticks="2" gainmanaamount="100" manamultiplier="1.1" soulmax="250" gainsoulticks="15" fromvoc="16" corpse="12911">
+		<formula meleeDamage="3.0" distDamage="2.5" wandDamage="0.1" magDamage="2.7" magHealingDamage="1.0" defense="2.7" magdefense="2.3" armor="2.4"/>
+		<skill id="0" multiplier="1.1" />
+		<skill id="1" multiplier="1.1" />
+		<skill id="2" multiplier="1.1" />
+		<skill id="3" multiplier="1.1" />
+		<skill id="4" multiplier="1.1" />
+		<skill id="5" multiplier="1.1" />
+		<skill id="6" multiplier="1.1" />
+	</vocation>
+	<vocation id="17" clientid="17" name="Zaiko" description="um Zaiko" gaincap="100" gainhp="500" gainmana="400" gainhpticks="2" gainhpamount="100" gainmanaticks="2" gainmanaamount="100" manamultiplier="1.1" soulmax="250" gainsoulticks="15" fromvoc="17" corpse="12913">
+		<formula meleeDamage="3.0" distDamage="2.5" wandDamage="0.1" magDamage="2.7" magHealingDamage="1.0" defense="2.7" magdefense="2.3" armor="2.4"/>
+		<skill id="0" multiplier="1.1" />
+		<skill id="1" multiplier="1.1" />
+		<skill id="2" multiplier="1.1" />
+		<skill id="3" multiplier="1.1" />
+		<skill id="4" multiplier="1.1" />
+		<skill id="5" multiplier="1.1" />
+		<skill id="6" multiplier="1.1" />
+	</vocation>
+	<vocation id="18" clientid="18" name="King Vegeta" description="um King Vegeta" gaincap="100" gainhp="500" gainmana="400" gainhpticks="2" gainhpamount="100" gainmanaticks="2" gainmanaamount="100" manamultiplier="1.1" soulmax="250" gainsoulticks="15" fromvoc="18" corpse="12869">
+		<formula meleeDamage="3.0" distDamage="2.5" wandDamage="0.1" magDamage="2.7" magHealingDamage="1.0" defense="2.7" magdefense="2.3" armor="2.4"/>
+		<skill id="0" multiplier="1.1" />
+		<skill id="1" multiplier="1.1" />
+		<skill id="2" multiplier="1.1" />
+		<skill id="3" multiplier="1.1" />
+		<skill id="4" multiplier="1.1" />
+		<skill id="5" multiplier="1.1" />
+		<skill id="6" multiplier="1.1" />
+	</vocation>
+	<vocation id="19" clientid="19" name="Vegetto" description="um Vegetto" gaincap="100" gainhp="500" gainmana="400" gainhpticks="2" gainhpamount="100" gainmanaticks="2" gainmanaamount="100" manamultiplier="1.1" soulmax="250" gainsoulticks="15" fromvoc="19" corpse="12875">
+		<formula meleeDamage="3.0" distDamage="2.5" wandDamage="0.1" magDamage="2.7" magHealingDamage="1.0" defense="2.7" magdefense="2.3" armor="2.4"/>
+		<skill id="0" multiplier="1.1" />
+		<skill id="1" multiplier="1.1" />
+		<skill id="2" multiplier="1.1" />
+		<skill id="3" multiplier="1.1" />
+		<skill id="4" multiplier="1.1" />
+		<skill id="5" multiplier="1.1" />
+		<skill id="6" multiplier="1.1" />
+	</vocation>
+	<vocation id="20" clientid="20" name="Kame" description="um Kame" gaincap="100" gainhp="500" gainmana="400" gainhpticks="2" gainhpamount="100" gainmanaticks="2" gainmanaamount="100" manamultiplier="1.1" soulmax="250" gainsoulticks="15" fromvoc="20" corpse="12908">
+		<formula meleeDamage="3.0" distDamage="2.5" wandDamage="0.1" magDamage="2.7" magHealingDamage="1.0" defense="2.7" magdefense="2.3" armor="2.4"/>
+		<skill id="0" multiplier="1.1" />
+		<skill id="1" multiplier="1.1" />
+		<skill id="2" multiplier="1.1" />
+		<skill id="3" multiplier="1.1" />
+		<skill id="4" multiplier="1.1" />
+		<skill id="5" multiplier="1.1" />
+		<skill id="6" multiplier="1.1" />
+	</vocation>
+	<vocation id="21" clientid="21" name="Shenron" description="um Shenron" gaincap="100" gainhp="500" gainmana="400" gainhpticks="2" gainhpamount="100" gainmanaticks="2" gainmanaamount="100" manamultiplier="1.1" soulmax="250" gainsoulticks="15" fromvoc="21" corpse="12874">
+		<formula meleeDamage="3.0" distDamage="2.5" wandDamage="0.1" magDamage="2.7" magHealingDamage="1.0" defense="2.7" magdefense="2.3" armor="2.4"/>
+		<skill id="0" multiplier="1.1" />
+		<skill id="1" multiplier="1.1" />
+		<skill id="2" multiplier="1.1" />
+		<skill id="3" multiplier="1.1" />
+		<skill id="4" multiplier="1.1" />
+		<skill id="5" multiplier="1.1" />
+		<skill id="6" multiplier="1.1" />
+	</vocation>
+	<vocation id="22" clientid="22" name="Kaioh" description="um Kaioh" gaincap="100" gainhp="500" gainmana="400" gainhpticks="2" gainhpamount="100" gainmanaticks="2" gainmanaamount="100" manamultiplier="1.1" soulmax="250" gainsoulticks="15" fromvoc="22" corpse="12809">
+		<formula meleeDamage="3.0" distDamage="2.5" wandDamage="0.1" magDamage="2.7" magHealingDamage="1.0" defense="2.7" magdefense="2.3" armor="2.4"/>
+		<skill id="0" multiplier="1.1" />
+		<skill id="1" multiplier="1.1" />
+		<skill id="2" multiplier="1.1" />
+		<skill id="3" multiplier="1.1" />
+		<skill id="4" multiplier="1.1" />
+		<skill id="5" multiplier="1.1" />
+		<skill id="6" multiplier="1.1" />
+	</vocation>
+	<vocation id="23" clientid="23" name="Goku Black" description="um Goku Black" gaincap="100" gainhp="500" gainmana="400" gainhpticks="2" gainhpamount="100" gainmanaticks="2" gainmanaamount="100" manamultiplier="1.1" soulmax="250" gainsoulticks="15" fromvoc="23" corpse="13590">
+		<formula meleeDamage="3.0" distDamage="2.5" wandDamage="0.1" magDamage="2.7" magHealingDamage="1.0" defense="2.7" magdefense="2.3" armor="2.4"/>
+		<skill id="0" multiplier="1.1" />
+		<skill id="1" multiplier="1.1" />
+		<skill id="2" multiplier="1.1" />
+		<skill id="3" multiplier="1.1" />
+		<skill id="4" multiplier="1.1" />
+		<skill id="5" multiplier="1.1" />
+		<skill id="6" multiplier="1.1" />
+	</vocation>
+	<vocation id="24" clientid="24" name="Zamasu" description="um Zamasu" gaincap="100" gainhp="500" gainmana="400" gainhpticks="2" gainhpamount="100" gainmanaticks="2" gainmanaamount="100" manamultiplier="1.1" soulmax="250" gainsoulticks="15" fromvoc="24" corpse="13591">
+		<formula meleeDamage="3.0" distDamage="2.5" wandDamage="0.1" magDamage="2.7" magHealingDamage="1.0" defense="2.7" magdefense="2.3" armor="2.4"/>
+		<skill id="0" multiplier="1.1" />
+		<skill id="1" multiplier="1.1" />
+		<skill id="2" multiplier="1.1" />
+		<skill id="3" multiplier="1.1" />
+		<skill id="4" multiplier="1.1" />
+		<skill id="5" multiplier="1.1" />
+		<skill id="6" multiplier="1.1" />
+	</vocation>
+	<vocation id="25" clientid="25" name="Jiren" description="um Jiren" gaincap="100" gainhp="500" gainmana="400" gainhpticks="2" gainhpamount="100" gainmanaticks="2" gainmanaamount="100" manamultiplier="1.1" soulmax="250" gainsoulticks="15" fromvoc="25" corpse="13592">
+		<formula meleeDamage="3.0" distDamage="2.5" wandDamage="0.1" magDamage="2.7" magHealingDamage="1.0" defense="2.7" magdefense="2.3" armor="2.4"/>
+		<skill id="0" multiplier="1.1" />
+		<skill id="1" multiplier="1.1" />
+		<skill id="2" multiplier="1.1" />
+		<skill id="3" multiplier="1.1" />
+		<skill id="4" multiplier="1.1" />
+		<skill id="5" multiplier="1.1" />
+		<skill id="6" multiplier="1.1" />
+	</vocation>
+</vocations>

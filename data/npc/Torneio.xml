@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Torneio [PvP]" script="torneioPvP.lua" walkinterval="0">
+	<health now="100" max="100"/>
+	<look type="641"/>
+	<parameters>
+	<parameter key="message_greet" value="Olá, |PLAYERNAME|! Eu posso te inscrever no {torneio}! as inscrições finalizam 19h05."/>
+	</parameters>
+</npc>

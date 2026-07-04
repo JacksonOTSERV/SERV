@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Kuririn" nameDescription="an Kuririn" race="blood" experience="30000" speed="800" manacost="0">
+  <health now="400000" max="400000" />
+  <look type="209" head="1" body="1" legs="1" feet="1" addons="0" corpse="12823" />
+  <targetchange interval="5000" chance="8" />
+  <strategy attack="100" defense="0" />
+  <flags>
+    <flag summonable="0" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="0" />
+    <flag convinceable="0" />
+    <flag pushable="1" />
+    <flag canpushitems="1" />
+    <flag canpushcreatures="1" />
+    <flag targetdistance="1" />
+    <flag staticattack="90" />
+    <flag runonhealth="0" />
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" min="-10000" max="-15000" />
+    <attack name="dark furie" interval="1000" chance="25" min="-25000" max="-27000" />
+    <attack name="super kienzan blast" interval="3000" chance="25" min="-1900" max="-2800" />
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <immunities>
+    <immunity physical="0" />
+    <immunity energy="0" />
+    <immunity fire="0" />
+    <immunity poison="0" />
+    <immunity lifedrain="0" />
+    <immunity paralyze="1" />
+    <immunity outfit="1" />
+    <immunity invisible="1" />
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Com este poder sera dificil me derrotar!" />
+    <voice sentence="Com este meu poder minha humilhacao teve seu fim." />
+    <voice sentence="Precisa ser mais rapido que isso!" />
+  </voices>
+  <loot>
+    <item id="12715" chance="2500" />
+    <!-- Darkness Sword -->
+    <item id="13387" chance="2500" />
+    <!-- Big Staff -->
+  </loot>
+</monster>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Boots Trader" script="default.lua" walkinterval="2000">
+	<health now="100" max="100"/>
+	<look type="453"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Olá, |PLAYERNAME|! Eu compro algumas Boots. Diga {Trade}."/>
+		<parameter key="shop_sellable" value="
+			Boots,12684,30000;
+			Vilage Boots,12685,30000;
+			Saiyan Boots,12686,30000;
+			Future Trunks Boots,12687,30000;
+			Bardock Boots,12688,30000;
+			Broly Boots,12690,30000;
+			Majin Boots,12691,30000;
+			C17 Boots,12692,30000;
+			Goku Boots,12693,30000
+		"/>
+	</parameters>
+</npc>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Goku Ginyu" nameDescription="an Goku Ginyu" race="blood" experience="25000" speed="400" manacost="0">
+  <health now="130000" max="130000" />
+  <look type="419" head="1" body="1" legs="1" feet="1" addons="0" corpse="12788" />
+  <targetchange interval="5000" chance="8" />
+  <strategy attack="100" defense="0" />
+  <flags>
+    <flag summonable="0" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="0" />
+    <flag convinceable="0" />
+    <flag pushable="1" />
+    <flag canpushitems="1" />
+    <flag canpushcreatures="1" />
+    <flag targetdistance="1" />
+    <flag staticattack="90" />
+    <flag runonhealth="0" />
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" min="-3500" max="-5000" />
+    <attack name="super ryuken" interval="1000" chance="15" min="-3500" max="-8000" />
+    <attack name="super kienzan blast" interval="1000" chance="35" min="-1000" max="-3000" />
+    <attack name="big bang kamehameha" interval="3000" chance="60" min="-8500" max="-15000" />
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <immunities>
+    <immunity physical="0" />
+    <immunity energy="0" />
+    <immunity fire="0" />
+    <immunity poison="0" />
+    <immunity lifedrain="0" />
+    <immunity paralyze="0" />
+    <immunity outfit="1" />
+    <immunity invisible="0" />
+  </immunities>
+  <loot>
+    <item id="12655" chance="2500" />
+    <!-- Goku Armor -->
+    <item id="12675" chance="2500" />
+    <!-- Goku Legs -->
+    <item id="12693" chance="2500" />
+    <!-- Goku Boots -->
+    <item id="12705" chance="2500" />
+    <!-- Saiyan Glove -->
+    <item id="13387" chance="2500" />
+    <!-- Big Staff -->
+  </loot>
+</monster>
