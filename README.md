@@ -9,6 +9,16 @@ O cliente OTCv8 está disponível no Google Drive:
 
 **➡️ [Baixar cliente](https://drive.google.com/file/d/1sspwKHHubbaXDQrJyjT1b2RgeFW-Cyjl/view?usp=drive_link)**
 
+## Screenshots
+
+### Gameplay (cliente OTCv8)
+
+![Cliente in-game](docs/client.png)
+
+### Servidor online (log de inicialização)
+
+![Servidor online](docs/terminal_sv.png)
+
 ---
 
 ## Requisitos
